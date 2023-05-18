@@ -13,6 +13,10 @@ const Home = () => {
           rel='icon'
           href='/favicon.ico'
         />
+        <link
+          rel='stylesheet'
+          href='https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'
+        />
       </Head>
     </div>
   )
