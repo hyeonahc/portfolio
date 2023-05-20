@@ -1,3 +1,9 @@
+import {
+  faBehance,
+  faGithub,
+  faLinkedinIn,
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '@public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -30,17 +36,17 @@ const Header = () => {
             <Link
               href='https://www.linkedin.com/in/hyeonahc'
               target='_blank'>
-              linkedin
+              <FontAwesomeIcon icon={faLinkedinIn} />
             </Link>
             <Link
               href='https://github.com/hyeonahc'
               target='_blank'>
-              github
+              <FontAwesomeIcon icon={faGithub} />
             </Link>
             <Link
               href='https://www.behance.net/hyeonahc'
               target='_blank'>
-              behance
+              <FontAwesomeIcon icon={faBehance} />
             </Link>
           </Social>
         </Nav>
