@@ -32,6 +32,14 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link
+            rel='icon'
+            href='/favicon.ico'
+          />
+          <link
+            rel='stylesheet'
+            href='https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'
+          />
+          <link
             rel='preconnect'
             href='https://fonts.googleapis.com'
           />

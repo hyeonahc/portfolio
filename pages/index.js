@@ -1,23 +1,9 @@
-import Head from 'next/head'
+import Main from '@components/Main'
 
 const Home = () => {
   return (
     <div>
-      <Head>
-        <title>Hyeonah's Portfolio</title>
-        <meta
-          name='description'
-          content='Hyeonah Cho&#39;s Portfolio'
-        />
-        <link
-          rel='icon'
-          href='/favicon.ico'
-        />
-        <link
-          rel='stylesheet'
-          href='https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'
-        />
-      </Head>
+      <Main />
     </div>
   )
 }
