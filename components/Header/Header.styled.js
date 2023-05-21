@@ -22,9 +22,16 @@ export const Nav = styled.div`
 export const Menu = styled.div`
   display: flex;
   gap: 1em;
+  a {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 `
 
 export const Social = styled.div`
   display: flex;
   gap: 1em;
+  a {
+    font-size: 1.8rem;
+  }
 `
