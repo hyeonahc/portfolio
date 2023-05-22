@@ -38,6 +38,9 @@ const GlobalStyle = createGlobalStyle`
 		font-family: 'Poppins', sans-serif;
 	}
 `
+export const Highlight = styled.span`
+  color: ${props => props.theme.colors.accent};
+`
 
 export const BulletPoint = styled.span`
   background-color: ${props => props.theme.colors.accent};
