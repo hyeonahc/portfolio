@@ -5,6 +5,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '@public/logo.png'
+import { BulletPoint } from '@styles/globals'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Container, Logo, Menu, Nav, Social } from './Header.styled'
@@ -19,12 +20,16 @@ const Header = () => {
               src={logo}
               width={60}
               height={60}
-              alt='Picture of the author'
+              alt='logo'
             />
           </Link>
         </Logo>
         <Nav>
           <Menu>
+            <BulletPoint
+              top='-0.5em'
+              left='-0.75em'
+            />
             <Link href='/'>home</Link>
             <Link href='#projects'>projects</Link>
             <Link href='#about'>about</Link>

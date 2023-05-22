@@ -21,12 +21,13 @@ export const Nav = styled.div`
 `
 
 export const Menu = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   gap: 1em;
   a {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: ${props => props.theme.fontWeight.semibold};
   }
 `
 
@@ -34,6 +35,6 @@ export const Social = styled.div`
   display: flex;
   gap: 1em;
   a {
-    font-size: 1.8rem;
+    font-size: ${props => props.theme.fontSizes.lg};
   }
 `
