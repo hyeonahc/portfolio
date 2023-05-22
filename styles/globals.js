@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -18,6 +18,10 @@ const GlobalStyle = createGlobalStyle`
 		font-family: 'Lato', sans-serif;
 	}
 
+	p {
+		line-height: normal;
+	}
+
 	a {
 		color: inherit;
 		text-decoration: none;
@@ -33,6 +37,16 @@ const GlobalStyle = createGlobalStyle`
 	h3 {
 		font-family: 'Poppins', sans-serif;
 	}
+`
+
+export const BulletPoint = styled.span`
+  background-color: ${props => props.theme.colors.accent};
+  border-radius: 100%;
+  width: 0.5em;
+  height: 0.5em;
+  position: absolute;
+  top: ${props => props.top};
+  left: ${props => props.left};
 `
 
 export default GlobalStyle

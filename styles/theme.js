@@ -1,17 +1,26 @@
 const colors = {
   accent: '#000CFB',
-  font: '#2E2E2E',
+  black: '#2E2E2E',
+  white: '#FFFFFF',
+}
+
+const fontFamily = {
+  lato: 'Lato',
+  poppins: 'Poppins',
 }
 
 const fontSizes = {
-  medium: '1.6rem',
-  extraLarge: '4rem',
+  md: '1.6rem',
+  xmd: '1.8rem',
+  lg: '2rem',
+  xxl: '5rem',
 }
 
 const fontWeight = {
   thin: 100,
   light: 300,
   regular: 400,
+  semibold: 600,
   bold: 700,
   black: 900,
 }
@@ -26,6 +35,7 @@ const breakpoints = {
 
 const theme = {
   colors,
+  fontFamily,
   fontSizes,
   fontWeight,
   breakpoints,
