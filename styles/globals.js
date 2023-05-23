@@ -38,6 +38,14 @@ const GlobalStyle = createGlobalStyle`
 		font-family: 'Poppins', sans-serif;
 	}
 `
+export const SectionContainer = styled.div`
+  height: ${props => props.height};
+  display: flex;
+  align-items: center;
+  justify-content: ${props => props.justifyContent};
+  gap: ${props => props.gap};
+`
+
 export const Highlight = styled.span`
   color: ${props => props.theme.colors.accent};
 `

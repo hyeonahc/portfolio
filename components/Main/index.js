@@ -1,11 +1,10 @@
 import Button from '@components/Button'
 import profile from '@public/profile.png'
-import { BulletPoint, Highlight } from '@styles/globals'
+import { BulletPoint, Highlight, SectionContainer } from '@styles/globals'
 import Image from 'next/image'
 import {
   ButtonWrapper,
   Circle,
-  Container,
   Hello,
   Hyeonah,
   Paragraph,
@@ -17,7 +16,10 @@ import {
 
 const Main = () => {
   return (
-    <Container>
+    <SectionContainer
+      height='90vh'
+      justifyContent='space-evenly'
+      gap='5em'>
       <ProfileCopy>
         <Hello>
           <BulletPoint
@@ -60,7 +62,7 @@ const Main = () => {
         <Circle />
         <Square />
       </ProfilePhoto>
-    </Container>
+    </SectionContainer>
   )
 }
 
