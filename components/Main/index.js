@@ -16,12 +16,10 @@ import {
 const buttonInfo = [
   {
     name: 'look projects',
-    primary: true,
     link: '/portfolio',
   },
   {
     name: 'download resume',
-    primary: false,
     link: '/',
   },
 ]

@@ -7,10 +7,10 @@ const Button = ({ buttonInfo }) => {
   return (
     <ButtonWrapper>
       {buttonInfo &&
-        buttonInfo.map(btn => (
+        buttonInfo.map((btn, index) => (
           <StyledButton
             key={btn.name}
-            primary={btn.primary}
+            primary={index && true}
             onClick={() => router.push(btn.link)}>
             {btn.name}
           </StyledButton>
