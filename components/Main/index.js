@@ -59,6 +59,7 @@ const Main = () => {
           height='100%'
           alt='profile picture'
           style={{ width: '100%', height: '100%' }}
+          priority={true}
         />
         <Circle />
         <Square />
