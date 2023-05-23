@@ -30,11 +30,6 @@ export const Paragraph = styled.p`
   margin: 2em 0;
 `
 
-export const ButtonWrapper = styled.div`
-  display: flex;
-  gap: 1em;
-`
-
 export const ProfilePhoto = styled.div`
   width: auto;
   height: 45vh;

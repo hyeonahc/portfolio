@@ -3,7 +3,6 @@ import profile from '@public/profile.png'
 import { BulletPoint, Highlight, SectionContainer } from '@styles/globals'
 import Image from 'next/image'
 import {
-  ButtonWrapper,
   Circle,
   Hello,
   Hyeonah,
@@ -13,6 +12,19 @@ import {
   Rectangle,
   Square,
 } from './Main.styled'
+
+const buttonInfo = [
+  {
+    name: 'look projects',
+    primary: true,
+    link: '/portfolio',
+  },
+  {
+    name: 'download resume',
+    primary: false,
+    link: '/',
+  },
+]
 
 const Main = () => {
   return (
@@ -37,18 +49,7 @@ const Main = () => {
           placerat in in velit. Nam euismod placerat laoreet. Pellentesque
           fringilla molestie dolor, id sagittis neque iaculis ac.
         </Paragraph>
-        <ButtonWrapper>
-          <Button
-            name='look projects'
-            primary={true}
-            link='/portfolio'
-          />
-          <Button
-            name='download resume'
-            primary={false}
-            link='/'
-          />
-        </ButtonWrapper>
+        <Button buttonInfo={buttonInfo} />
       </ProfileCopy>
       <ProfilePhoto>
         <Rectangle />

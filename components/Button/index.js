@@ -1,15 +1,21 @@
 import { useRouter } from 'next/router'
-import { StyledButton } from './Button.styled'
+import { ButtonWrapper, StyledButton } from './Button.styled'
 
-const Button = ({ name, primary, link }) => {
+const Button = ({ buttonInfo }) => {
   const router = useRouter()
 
   return (
-    <StyledButton
-      primary={primary}
-      onClick={() => router.push(link)}>
-      {name}
-    </StyledButton>
+    <ButtonWrapper>
+      {buttonInfo &&
+        buttonInfo.map(btn => (
+          <StyledButton
+            key={btn.name}
+            primary={btn.primary}
+            onClick={() => router.push(btn.link)}>
+            {btn.name}
+          </StyledButton>
+        ))}
+    </ButtonWrapper>
   )
 }
 
