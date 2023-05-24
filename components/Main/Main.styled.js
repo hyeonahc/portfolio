@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ProfileCopy = styled.div`
-  width: 40vw;
   display: flex;
   flex-direction: column;
 `
@@ -31,8 +30,7 @@ export const Paragraph = styled.p`
 `
 
 export const ProfilePhoto = styled.div`
-  width: auto;
-  height: 45vh;
+  height: 50vh;
   position: relative;
 `
 

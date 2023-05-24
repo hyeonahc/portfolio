@@ -5,15 +5,18 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo from '@public/logo.png'
-import { BulletPoint } from '@styles/globals'
+import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Container, Logo, Menu, Nav, Social } from './Header.styled'
+import { Logo, Menu, Nav, Social } from './Header.styled'
 
 const Header = () => {
   return (
-    <>
-      <Container>
+    <Row
+      height='10vh'
+      padding='0.5em 0'
+      justifyContent='space-between'>
+      <Col>
         <Logo>
           <Link href='/'>
             <Image
@@ -25,6 +28,8 @@ const Header = () => {
             />
           </Link>
         </Logo>
+      </Col>
+      <Col>
         <Nav>
           <Menu>
             <BulletPoint
@@ -56,8 +61,8 @@ const Header = () => {
             </Link>
           </Social>
         </Nav>
-      </Container>
-    </>
+      </Col>
+    </Row>
   )
 }
 

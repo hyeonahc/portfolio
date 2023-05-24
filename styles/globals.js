@@ -38,14 +38,25 @@ const GlobalStyle = createGlobalStyle`
 		font-family: 'Poppins', sans-serif;
 	}
 `
-export const SectionContainer = styled.div`
+
+// Layout
+export const Row = styled.div`
+  border: 1px solid salmon;
+  width: ${props => props.width};
   height: ${props => props.height};
+  padding: ${props => props.padding};
   display: flex;
   align-items: center;
   justify-content: ${props => props.justifyContent};
   gap: ${props => props.gap};
 `
 
+export const Col = styled.div`
+  border: 1px solid green;
+  flex-basis: ${props => props.flexBasis};
+`
+
+// Shared Design
 export const Highlight = styled.span`
   color: ${props => props.theme.colors.accent};
 `
