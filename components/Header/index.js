@@ -8,7 +8,7 @@ import logo from '@public/logo.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Logo, Menu, Nav, Social } from './Header.styled'
+import { Menu, Nav, Social } from './Header.styled'
 
 const Header = () => {
   return (
@@ -17,17 +17,15 @@ const Header = () => {
       padding='0.5em 0'
       justifyContent='space-between'>
       <Col>
-        <Logo>
-          <Link href='/'>
-            <Image
-              src={logo}
-              width={60}
-              height={60}
-              alt='logo'
-              priority={true}
-            />
-          </Link>
-        </Logo>
+        <Link href='/'>
+          <Image
+            src={logo}
+            width={60}
+            height={60}
+            alt='logo'
+            priority={true}
+          />
+        </Link>
       </Col>
       <Col>
         <Nav>

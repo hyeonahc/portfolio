@@ -37,6 +37,10 @@ const GlobalStyle = createGlobalStyle`
 	h3 {
 		font-family: 'Poppins', sans-serif;
 	}
+
+	img {
+    vertical-align: bottom;
+  }
 `
 
 // Layout

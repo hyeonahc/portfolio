@@ -1,11 +1,5 @@
 import styled from 'styled-components'
 
-export const Logo = styled.div`
-  img {
-    vertical-align: bottom;
-  }
-`
-
 export const Nav = styled.div`
   display: flex;
   gap: 1.6em;
