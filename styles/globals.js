@@ -58,6 +58,7 @@ export const Row = styled.div`
 export const Col = styled.div`
   border: 1px solid green;
   flex-basis: ${props => props.flexBasis};
+  order: ${props => props.order};
 `
 
 // Shared Design

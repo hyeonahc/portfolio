@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { Date, Description, Tag, TagBox, Tags, Title } from './Project.styled'
 
-const Project = ({ projectDetail }) => {
+const Project = ({ projectDetail, projectNumber }) => {
   const { date, title, tags, description, links } = projectDetail
 
   const initialBtnInfo = [
@@ -45,7 +45,9 @@ const Project = ({ projectDetail }) => {
       height='90vh'
       justifyContent='space-evenly'
       gap='5em'>
-      <Col flexBasis='70%'>
+      <Col
+        flexBasis='70%'
+        order={projectNumber % 2 === 0 && 1}>
         <Date>
           <BulletPoint
             top='-0.5em'
