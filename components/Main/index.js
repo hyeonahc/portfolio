@@ -17,10 +17,12 @@ const btnInfo = [
   {
     name: 'look projects',
     link: '/portfolio',
+    newTab: false,
   },
   {
     name: 'download resume',
     link: '/',
+    newTab: false,
   },
 ]
 
