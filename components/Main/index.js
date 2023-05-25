@@ -13,7 +13,7 @@ import {
   Square,
 } from './Main.styled'
 
-const buttonInfo = [
+const btnInfo = [
   {
     name: 'look projects',
     link: '/portfolio',
@@ -48,7 +48,7 @@ const Main = () => {
             sodales placerat in in velit. Nam euismod placerat laoreet.
             Pellentesque fringilla molestie dolor, id sagittis neque iaculis ac.
           </Paragraph>
-          <Button buttonInfo={buttonInfo} />
+          <Button btnInfo={btnInfo} />
         </ProfileCopy>
       </Col>
       <Col>

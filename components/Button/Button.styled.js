@@ -6,13 +6,13 @@ export const ButtonWrapper = styled.div`
 `
 
 export const StyledButton = styled.button`
-  height: 3em;
+  height: 3.25em;
   padding: 1rem 2.5rem;
   text-align: center;
   text-transform: capitalize;
   cursor: pointer;
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xmd};
+  font-size: ${props => props.theme.fontSizes.md};
   font-weight: ${props => props.theme.fontWeight.semibold};
   border: 3px solid ${props => props.theme.colors.accent};
   background-color: ${props =>

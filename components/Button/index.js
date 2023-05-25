@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router'
 import { ButtonWrapper, StyledButton } from './Button.styled'
 
-const Button = ({ buttonInfo }) => {
+const Button = ({ btnInfo }) => {
   const router = useRouter()
 
   return (
     <ButtonWrapper>
-      {buttonInfo &&
-        buttonInfo.map((btn, index) => (
+      {btnInfo &&
+        btnInfo.map((btn, index) => (
           <StyledButton
             key={btn.name}
             primary={index && true}
