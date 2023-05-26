@@ -52,9 +52,16 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
       padding='10em 0'
       justifyContent='space-evenly'
       gap='5em'>
-      <Col
-        flexBasis='70%'
-        order={projectNumber % 2 === 0 && 1}>
+      <Col order={projectNumber === 2 && 1}>
+        <Image
+          src={project}
+          width='100%'
+          height='100%'
+          alt='project picture'
+          style={{ width: '100%', height: '100%' }}
+        />
+      </Col>
+      <Col flexBasis='70%'>
         <Date>
           <BulletPoint
             top='-10px'
@@ -73,15 +80,6 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
         </Tags>
         <Description>{description}</Description>
         <Button btnInfo={btnInfo} />
-      </Col>
-      <Col>
-        <Image
-          src={project}
-          width='100%'
-          height='100%'
-          alt='project picture'
-          style={{ width: '100%', height: '100%' }}
-        />
       </Col>
     </Row>
   )
