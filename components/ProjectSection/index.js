@@ -1,5 +1,5 @@
-import ProjectCTA from '@components/ProjectCTA'
-import ProjectItem from '@components/ProjectItem'
+import ProjectCTA from '@components/ProjectSection/ProjectCTA'
+import ProjectItem from '@components/ProjectSection/ProjectItem'
 
 const projectData = [
   {
