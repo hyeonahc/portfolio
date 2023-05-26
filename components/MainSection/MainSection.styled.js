@@ -18,7 +18,7 @@ export const Hello = styled.p`
 
 export const Hyeonah = styled.p`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxl};
+  font-size: ${props => props.theme.fontSizes.xxxl};
   font-weight: ${props => props.theme.fontWeight.black};
   text-transform: uppercase;
   line-height: unset;
