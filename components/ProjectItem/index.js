@@ -5,10 +5,17 @@ import project from '@public/project.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { Date, Description, Tag, TagBox, Tags, Title } from './Project.styled'
+import {
+  Date,
+  Description,
+  Tag,
+  TagBox,
+  Tags,
+  Title,
+} from './ProjectItem.styled'
 
-const Project = ({ projectDetail, projectNumber }) => {
-  const { date, title, tags, description, links } = projectDetail
+const ProjectItem = ({ projectItemData, projectNumber }) => {
+  const { date, title, tags, description, links } = projectItemData
 
   const initialBtnInfo = [
     {
@@ -80,4 +87,4 @@ const Project = ({ projectDetail, projectNumber }) => {
   )
 }
 
-export default Project
+export default ProjectItem

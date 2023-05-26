@@ -1,6 +1,6 @@
-import Project from '@components/Project'
+import ProjectItem from '@components/ProjectItem'
 
-const projectsData = [
+const projectData = [
   {
     date: 'Sep 2022 – Present',
     title: 'Go Together Travel Agency',
@@ -39,10 +39,10 @@ const projectsData = [
 const ProjectSection = () => {
   return (
     <>
-      {projectsData.map((projectDetail, index) => (
-        <Project
-          key={projectDetail.title}
-          projectDetail={projectDetail}
+      {projectData.map((projectItemData, index) => (
+        <ProjectItem
+          key={projectItemData.title}
+          projectItemData={projectItemData}
           projectNumber={index + 1}
         />
       ))}
