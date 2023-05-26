@@ -1,5 +1,4 @@
 import Project from '@components/Project'
-import { Row } from '@styles/globals'
 
 const projectsData = [
   {
@@ -38,17 +37,17 @@ const projectsData = [
 ]
 
 const Projects = () => {
-  return projectsData.map((projectDetail, index) => (
-    <Row
-      justifyContent='space-evenly'
-      gap='5em'
-      key={projectDetail.title}>
-      <Project
-        projectDetail={projectDetail}
-        projectNumber={index + 1}
-      />
-    </Row>
-  ))
+  return (
+    <>
+      {projectsData.map((projectDetail, index) => (
+        <Project
+          key={projectDetail.title}
+          projectDetail={projectDetail}
+          projectNumber={index + 1}
+        />
+      ))}
+    </>
+  )
 }
 
 export default Projects

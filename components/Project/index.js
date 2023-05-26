@@ -42,7 +42,7 @@ const Project = ({ projectDetail, projectNumber }) => {
 
   return (
     <Row
-      height='90vh'
+      padding='10em 0'
       justifyContent='space-evenly'
       gap='5em'>
       <Col
