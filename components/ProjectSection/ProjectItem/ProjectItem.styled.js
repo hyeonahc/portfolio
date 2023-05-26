@@ -11,6 +11,7 @@ export const Title = styled.h2`
   font-size: ${props => props.theme.fontSizes.xl};
   font-weight: ${props => props.theme.fontWeight.bold};
   color: ${props => props.theme.colors.accent};
+  text-transform: capitalize;
   margin-bottom: 0.5em;
 `
 

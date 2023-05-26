@@ -4,7 +4,7 @@ import ProjectItem from '@components/ProjectSection/ProjectItem'
 const projectData = [
   {
     date: 'Sep 2022 – Present',
-    title: 'Go Together Travel Agency',
+    title: 'go together travel agency',
     tags: ['Next.js', 'Redux', 'MUI'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus sodales ante porttitor dignissim. Pellentesque pretium dignissim lectus, eget mollis purus suscipit sit amet. Morbi eu faucibus erat.',
@@ -15,7 +15,7 @@ const projectData = [
   },
   {
     date: 'Sep 2022 – Present',
-    title: 'Go Together Travel Agency',
+    title: 'go together travel agency',
     tags: ['Next.js', 'Redux', 'MUI'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus sodales ante porttitor dignissim. Pellentesque pretium dignissim lectus, eget mollis purus suscipit sit amet. Morbi eu faucibus erat.',
@@ -26,7 +26,7 @@ const projectData = [
   },
   {
     date: 'Sep 2022 – Present',
-    title: 'Go Together Travel Agency',
+    title: 'go together travel agency',
     tags: ['Next.js', 'Redux', 'MUI'],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus sodales ante porttitor dignissim. Pellentesque pretium dignissim lectus, eget mollis purus suscipit sit amet. Morbi eu faucibus erat.',
