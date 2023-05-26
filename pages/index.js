@@ -1,3 +1,4 @@
+import AboutSection from '@components/AboutSection'
 import MainSection from '@components/MainSection'
 import ProjectSection from '@components/ProjectSection'
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <MainSection />
       <ProjectSection />
+      <AboutSection />
     </div>
   )
 }
