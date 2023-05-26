@@ -1,11 +1,11 @@
-import Main from '@components/Main'
-import Projects from '@components/Projects'
+import MainSection from '@components/MainSection'
+import ProjectSection from '@components/ProjectSection'
 
 const Home = () => {
   return (
     <div>
-      <Main />
-      <Projects />
+      <MainSection />
+      <ProjectSection />
     </div>
   )
 }

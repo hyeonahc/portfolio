@@ -36,7 +36,7 @@ const projectsData = [
   },
 ]
 
-const Projects = () => {
+const ProjectSection = () => {
   return (
     <>
       {projectsData.map((projectDetail, index) => (
@@ -50,4 +50,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default ProjectSection

@@ -11,7 +11,7 @@ import {
   ProfilePhoto,
   Rectangle,
   Square,
-} from './Main.styled'
+} from './MainSection.styled'
 
 const btnInfo = [
   {
@@ -26,7 +26,7 @@ const btnInfo = [
   },
 ]
 
-const Main = () => {
+const MainSection = () => {
   return (
     <Row
       height='90vh'
@@ -72,4 +72,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default MainSection
