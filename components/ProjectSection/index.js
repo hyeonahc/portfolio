@@ -1,3 +1,4 @@
+import ProjectCTA from '@components/ProjectCTA'
 import ProjectItem from '@components/ProjectItem'
 
 const projectData = [
@@ -46,6 +47,7 @@ const ProjectSection = () => {
           projectNumber={index + 1}
         />
       ))}
+      <ProjectCTA />
     </>
   )
 }
