@@ -50,6 +50,7 @@ export const Row = styled.div`
   height: ${props => props.height};
   padding: ${props => props.padding};
   display: flex;
+  flex-direction: ${props => props.flexDirection};
   align-items: center;
   justify-content: ${props => props.justifyContent};
   gap: ${props => props.gap};
