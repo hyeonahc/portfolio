@@ -36,8 +36,8 @@ const MainSection = () => {
         <ProfileCopy>
           <Hello>
             <BulletPoint
-              top='-0.5em'
-              left='-0.75em'
+              top='-10px'
+              left='-15px'
             />
             hello world!
           </Hello>

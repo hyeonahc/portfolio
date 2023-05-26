@@ -31,8 +31,8 @@ const Header = () => {
         <Nav>
           <Menu>
             <BulletPoint
-              top='-0.5em'
-              left='-0.75em'
+              top='-10px'
+              left='-15px'
             />
             <Link href='/'>home</Link>
             <Link href='#projects'>projects</Link>

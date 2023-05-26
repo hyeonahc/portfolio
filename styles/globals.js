@@ -68,9 +68,9 @@ export const Highlight = styled.span`
 
 export const BulletPoint = styled.span`
   background-color: ${props => props.theme.colors.accent};
-  border-radius: 100%;
-  width: 0.5em;
-  height: 0.5em;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
   position: absolute;
   top: ${props => props.top};
   left: ${props => props.left};

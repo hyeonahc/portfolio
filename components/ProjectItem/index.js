@@ -57,8 +57,8 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
         order={projectNumber % 2 === 0 && 1}>
         <Date>
           <BulletPoint
-            top='-0.5em'
-            left='-0.75em'
+            top='-10px'
+            left='-15px'
           />
           {date}
         </Date>
