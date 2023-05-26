@@ -1,4 +1,4 @@
-import Button from '@components/Button'
+import Button from '@components/Common/Button'
 import profile from '@public/profile.png'
 import { BulletPoint, Col, Highlight, Row } from '@styles/globals'
 import Image from 'next/image'

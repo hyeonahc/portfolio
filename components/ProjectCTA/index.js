@@ -1,4 +1,4 @@
-import Button from '@components/Button'
+import Button from '@components/Common/Button'
 import { BulletPoint, Row } from '@styles/globals'
 import { Title } from './ProjectCTA.styled'
 
