@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
 	p {
 		line-height: normal;
+		font-weight: ${props => props.theme.fontWeight.light};
 	}
 
 	a {
