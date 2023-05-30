@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
 		font-size: 1.7rem;
 	}
 
-	p {
+	p, ul, li {
 		line-height: normal;
 		font-weight: ${props => props.theme.fontWeight.light};
 	}
@@ -76,6 +76,7 @@ export const BulletPoint = styled.span`
   position: absolute;
   top: ${props => props.top};
   left: ${props => props.left};
+  right: ${props => props.right};
 `
 
 export default GlobalStyle
