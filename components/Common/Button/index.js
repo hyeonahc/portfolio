@@ -7,7 +7,7 @@ const Button = ({ btnInfo }) => {
       {btnInfo &&
         btnInfo.map((btn, index) => (
           <Link
-            key={btn.name}
+            key={index}
             href={btn.link}
             target={btn.newTab ? '_blank' : '_self'}>
             <StyledButton primary={index && true}>{btn.name}</StyledButton>

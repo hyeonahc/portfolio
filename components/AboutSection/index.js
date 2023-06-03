@@ -57,8 +57,8 @@ const AboutSection = () => {
           commodo sit amet.
         </Paragraph>
         <Tags>
-          {tags.map(tag => (
-            <TagBox key={tag}>
+          {tags.map((tag, index) => (
+            <TagBox key={index}>
               <FontAwesomeIcon icon={faPlay} />
               <Tag>{tag}</Tag>
             </TagBox>

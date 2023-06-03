@@ -34,7 +34,6 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
 
   function getLinkForBtnInfo() {
     const updatedBtnInfo = initialBtnInfo.map((info, index) => {
-      console.log(info)
       return {
         ...info,
         link: links[index],
@@ -52,7 +51,7 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
       padding='10em 0'
       justifyContent='space-evenly'
       gap='5em'>
-      <Col order={projectNumber === 2 && 1}>
+      <Col order={projectNumber === 2 ? 1 : 0}>
         <Image
           src={project}
           width='100%'
@@ -71,8 +70,8 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
         </Date>
         <Title>{title}</Title>
         <Tags>
-          {tags.map(tag => (
-            <TagBox key={tag}>
+          {tags.map((tag, index) => (
+            <TagBox key={index}>
               <FontAwesomeIcon icon={faPlay} />
               <Tag>{tag}</Tag>
             </TagBox>

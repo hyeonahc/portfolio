@@ -42,7 +42,7 @@ const ProjectSection = () => {
     <>
       {projectData.map((projectItemData, index) => (
         <ProjectItem
-          key={projectItemData.title}
+          key={index}
           projectItemData={projectItemData}
           projectNumber={index + 1}
         />
