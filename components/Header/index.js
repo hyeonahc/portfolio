@@ -1,14 +1,9 @@
-import {
-  faBehance,
-  faGithub,
-  faLinkedinIn,
-} from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Social from '@components/Common/Social'
 import logo from '@public/logo.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Menu, Nav, Social } from './Header.styled'
+import { Menu, Nav } from './Header.styled'
 
 const Header = () => {
   return (
@@ -41,23 +36,7 @@ const Header = () => {
             <Link href='#skills'>skills</Link>
             <Link href='#contact'>contact</Link>
           </Menu>
-          <Social>
-            <Link
-              href='https://www.linkedin.com/in/hyeonahc'
-              target='_blank'>
-              <FontAwesomeIcon icon={faLinkedinIn} />
-            </Link>
-            <Link
-              href='https://github.com/hyeonahc'
-              target='_blank'>
-              <FontAwesomeIcon icon={faGithub} />
-            </Link>
-            <Link
-              href='https://www.behance.net/hyeonahc'
-              target='_blank'>
-              <FontAwesomeIcon icon={faBehance} />
-            </Link>
-          </Social>
+          <Social />
         </Nav>
       </Col>
     </Row>

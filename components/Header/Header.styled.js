@@ -15,11 +15,3 @@ export const Menu = styled.div`
     font-weight: ${props => props.theme.fontWeight.semibold};
   }
 `
-
-export const Social = styled.div`
-  display: flex;
-  gap: 1em;
-  a {
-    font-size: ${props => props.theme.fontSizes.lg};
-  }
-`
