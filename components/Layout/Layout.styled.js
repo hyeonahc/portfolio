@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  border: 1px solid darkgoldenrod;
+  /* border: 1px solid darkgoldenrod; */
   width: ${props => props.theme.breakpoints.xxl};
   margin: 0 auto;
   position: relative;

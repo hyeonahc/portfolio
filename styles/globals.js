@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
 
 // Layout
 export const Row = styled.div`
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
   width: ${props => props.width};
   height: ${props => props.height};
   padding: ${props => props.padding};
@@ -58,7 +58,7 @@ export const Row = styled.div`
 `
 
 export const Col = styled.div`
-  border: 1px solid green;
+  /* border: 1px solid green; */
   flex-basis: ${props => props.flexBasis};
   order: ${props => props.order};
 `
