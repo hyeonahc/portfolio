@@ -12,6 +12,7 @@ const btnInfo = [
 const ContactSection = () => {
   return (
     <Row
+      id='contact'
       padding='5em 0'
       flexDirection='column'
       gap='1.5em'>

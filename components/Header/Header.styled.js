@@ -13,5 +13,6 @@ export const Menu = styled.div`
   a {
     text-transform: uppercase;
     font-weight: ${props => props.theme.fontWeight.semibold};
+    cursor: pointer;
   }
 `

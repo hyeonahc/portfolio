@@ -25,6 +25,7 @@ const tags = [
 const AboutSection = () => {
   return (
     <Row
+      id='about'
       height='90vh'
       justifyContent='space-evenly'
       gap='5em'>

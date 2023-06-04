@@ -28,6 +28,7 @@ const ExperienceSection = () => {
 
   return (
     <Row
+      id='experience'
       height='90vh'
       flexDirection='row'
       justifyContent='center'

@@ -39,7 +39,7 @@ const projectData = [
 
 const ProjectSection = () => {
   return (
-    <>
+    <div id='projects'>
       {projectData.map((projectItemData, index) => (
         <ProjectItem
           key={index}
@@ -48,7 +48,7 @@ const ProjectSection = () => {
         />
       ))}
       <ProjectCTA />
-    </>
+    </div>
   )
 }
 

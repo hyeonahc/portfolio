@@ -2,17 +2,22 @@ import Social from '@components/Common/Social'
 import logo from '@public/logo.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 import { Menu, Nav } from './Header.styled'
+
+const menuLists = ['home', 'projects', 'about', 'experience', 'contact']
 
 const Header = () => {
   return (
     <Row
+      id='home'
       height='10vh'
       padding='0.5em 0'
       justifyContent='space-between'>
       <Col>
-        <Link href='/'>
+        <Link
+          to='home'
+          smooth={true}>
           <Image
             src={logo}
             width={60}
@@ -29,12 +34,14 @@ const Header = () => {
               top='-10px'
               left='-15px'
             />
-            <Link href='/'>home</Link>
-            <Link href='#projects'>projects</Link>
-            <Link href='#about'>about</Link>
-            <Link href='#experience'>experience</Link>
-            <Link href='#skills'>skills</Link>
-            <Link href='#contact'>contact</Link>
+            {menuLists.map((menuList, index) => (
+              <Link
+                key={index}
+                to={menuList}
+                smooth={true}>
+                {menuList}
+              </Link>
+            ))}
           </Menu>
           <Social />
         </Nav>
