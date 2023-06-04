@@ -3,13 +3,24 @@ import logo from '@public/logo.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import { Link } from 'react-scroll'
+import styled from 'styled-components'
 import { Menu, Nav } from './Header.styled'
 
 const menuLists = ['home', 'projects', 'about', 'experience', 'contact']
 
+const RowHeader = styled(Row)`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0.5em 2em;
+  background-color: ${props => props.theme.colors.white};
+`
+
 const Header = () => {
   return (
-    <Row
+    <RowHeader
       id='home'
       height='10vh'
       padding='0.5em 0'
@@ -46,7 +57,7 @@ const Header = () => {
           <Social />
         </Nav>
       </Col>
-    </Row>
+    </RowHeader>
   )
 }
 
