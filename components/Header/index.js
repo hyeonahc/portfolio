@@ -2,11 +2,33 @@ import Social from '@components/Common/Social'
 import logo from '@public/logo.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
+import { useRef } from 'react'
 import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import { Menu, Nav } from './Header.styled'
 
-const menuLists = ['home', 'projects', 'about', 'experience', 'contact']
+const menuLists = [
+  {
+    name: 'home',
+    value: '-15px',
+  },
+  {
+    name: 'projects',
+    value: '55px',
+  },
+  {
+    name: 'about',
+    value: '160px',
+  },
+  {
+    name: 'experience',
+    value: '240px',
+  },
+  {
+    name: 'contact',
+    value: '355px',
+  },
+]
 
 const RowHeader = styled(Row)`
   position: fixed;
@@ -17,6 +39,13 @@ const RowHeader = styled(Row)`
 `
 
 const Header = () => {
+  const bulletPointRef = useRef(null)
+
+  const clickMenu = value => {
+    console.log(bulletPointRef.current)
+    bulletPointRef.current.style.left = value
+  }
+
   return (
     <RowHeader
       id='home'
@@ -41,15 +70,17 @@ const Header = () => {
         <Nav>
           <Menu>
             <BulletPoint
+              ref={bulletPointRef}
               top='-10px'
               left='-15px'
             />
             {menuLists.map((menuList, index) => (
               <Link
                 key={index}
-                to={menuList}
-                smooth={true}>
-                {menuList}
+                to={menuList.name}
+                smooth={true}
+                onClick={() => clickMenu(menuList.value)}>
+                {menuList.name}
               </Link>
             ))}
           </Menu>
