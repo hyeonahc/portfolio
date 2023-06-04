@@ -65,11 +65,11 @@ export const Col = styled.div`
 
 // Shared Design
 export const Highlight = styled.span`
-  color: ${props => props.theme.colors.accent};
+  color: ${props => props.theme.colors.primary};
 `
 
 export const BulletPoint = styled.span`
-  background-color: ${props => props.theme.colors.accent};
+  background-color: ${props => props.theme.colors.primary};
   border-radius: 50%;
   width: 8px;
   height: 8px;

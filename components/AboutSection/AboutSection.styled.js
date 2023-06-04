@@ -5,7 +5,7 @@ export const ImageWrapper = styled.div`
 `
 
 export const Square = styled.div`
-  border: 8px solid ${props => props.theme.colors.accent};
+  border: 8px solid ${props => props.theme.colors.primary};
   width: 340px;
   height: 315px;
   position: absolute;
@@ -38,7 +38,7 @@ export const TagBox = styled.div`
   flex-basis: 15em;
   svg {
     font-size: ${props => props.theme.fontSizes.xs};
-    color: ${props => props.theme.colors.accent};
+    color: ${props => props.theme.colors.primary};
     vertical-align: baseline;
   }
 `

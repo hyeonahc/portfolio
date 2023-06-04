@@ -39,7 +39,7 @@ export const Shapes = styled.div`
 `
 
 export const Rectangle = styled.div`
-  background-color: ${props => props.theme.colors.accent};
+  background-color: ${props => props.theme.colors.primary};
   width: 0.5em;
   height: 6em;
   position: absolute;
@@ -48,7 +48,7 @@ export const Rectangle = styled.div`
 `
 
 export const Circle = styled.div`
-  border: 4px solid ${props => props.theme.colors.accent};
+  border: 4px solid ${props => props.theme.colors.primary};
   border-radius: 100%;
   width: 1.25em;
   height: 1.25em;
@@ -58,7 +58,7 @@ export const Circle = styled.div`
 `
 
 export const Square = styled.div`
-  border: 8px solid ${props => props.theme.colors.accent};
+  border: 8px solid ${props => props.theme.colors.primary};
   width: 2.5em;
   height: 2.5em;
   position: absolute;

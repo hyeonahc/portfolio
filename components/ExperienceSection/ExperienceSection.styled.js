@@ -31,8 +31,8 @@ export const Tab = styled.li`
   cursor: pointer;
   padding: 1em;
   &&.active {
-    border-left: 3px solid ${props => props.theme.colors.accent};
-    color: ${props => props.theme.colors.accent};
+    border-left: 3px solid ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.primary};
     font-weight: ${props => props.theme.fontWeight.semibold};
   }
 `
@@ -57,7 +57,7 @@ export const OrganizationDurationWrapper = styled.div`
 
 export const Organization = styled.p`
   a {
-    color: ${props => props.theme.colors.accent};
+    color: ${props => props.theme.colors.primary};
     font-weight: ${props => props.theme.fontWeight.semibold};
   }
 `
@@ -70,7 +70,7 @@ export const ExperienceLi = styled.li`
   margin-bottom: 0.75em;
   svg {
     font-size: ${props => props.theme.fontSizes.xs};
-    color: ${props => props.theme.colors.accent};
+    color: ${props => props.theme.colors.primary};
     vertical-align: baseline;
     margin-right: 1em;
   }
