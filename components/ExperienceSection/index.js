@@ -22,7 +22,7 @@ import { MyJourneys } from './MyJourneys'
 const ExperienceSection = () => {
   const [currentTabIndex, setCurrentTabIndex] = useState('1')
 
-  const handleTabClick = e => {
+  const clickTab = e => {
     setCurrentTabIndex(e.target.id)
   }
 
@@ -48,7 +48,7 @@ const ExperienceSection = () => {
                 key={index}
                 id={index}
                 className={currentTabIndex === `${index}` && 'active'}
-                onClick={handleTabClick}>
+                onClick={clickTab}>
                 {myJourney.organization}
               </Tab>
             ))}

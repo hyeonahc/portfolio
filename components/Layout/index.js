@@ -6,7 +6,7 @@ import { animateScroll } from 'react-scroll'
 import { Background, Container, ScrollToTop } from './Layout.styled'
 
 const Layout = ({ children }) => {
-  const handleScrollToTop = () => {
+  const clickScrollToTop = () => {
     animateScroll.scrollToTop()
   }
 
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
       <Header />
       {children}
       <Footer />
-      <ScrollToTop onClick={handleScrollToTop}>
+      <ScrollToTop onClick={clickScrollToTop}>
         <Background>
           <FontAwesomeIcon icon={faChevronUp} />
         </Background>
