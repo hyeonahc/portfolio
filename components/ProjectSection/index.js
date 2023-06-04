@@ -5,36 +5,44 @@ import { Title } from './ProjectSection.styled'
 
 const projectData = [
   {
-    date: 'Sep 2022 – Present',
+    date: 'Sep 2022 – Feb 2023',
     title: 'go together travel agency',
-    tags: ['Next.js', 'Redux', 'MUI'],
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'Redux toolkit',
+      'MUI',
+      'Java',
+      'Spring',
+      'Jenkins',
+    ],
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus sodales ante porttitor dignissim. Pellentesque pretium dignissim lectus, eget mollis purus suscipit sit amet. Morbi eu faucibus erat.',
+      'Go Together is a travel service platform that aims to provide convenient vacation package bookings for seniors and individuals who face challenges in planning their travels. The client, Go Together Travel Agency (operated by The Shiny), required the development of a new website to address their specific requirements. The project team consists of eight members working on website design and development.',
     links: [
       'https://gotogether-s.vercel.app/en',
       'https://github.com/gotogether-s/gotogether-s',
     ],
   },
   {
-    date: 'Sep 2022 – Present',
-    title: 'go together travel agency',
-    tags: ['Next.js', 'Redux', 'MUI'],
+    date: 'Feb 2023 - Feb 2023 ',
+    title: 'Recipe World',
+    tags: ['React.js', 'Redux toolkit', 'react-router-dom v6', 'MUI'],
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus sodales ante porttitor dignissim. Pellentesque pretium dignissim lectus, eget mollis purus suscipit sit amet. Morbi eu faucibus erat.',
+      'Recipe World is a recipe search website that utilizes a database obtained from the spoonacular API. It allows users to search for food recipes by cuisine and provides detailed information about the cuisine, including its health information (such as vegan and dairy-free options), a list of ingredients with measurements, and cooking instructions.',
     links: [
-      'https://gotogether-s.vercel.app/en',
-      'https://github.com/gotogether-s/gotogether-s',
+      'https://welcometorecipeworld.netlify.app/',
+      'https://github.com/hyeonahc/recipe-website',
     ],
   },
   {
-    date: 'Sep 2022 – Present',
-    title: 'go together travel agency',
-    tags: ['Next.js', 'Redux', 'MUI'],
+    date: 'June 2022 – July 2022',
+    title: 'tumbler shop',
+    tags: ['Vue.js', 'Vuex', 'Scss'],
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus sodales ante porttitor dignissim. Pellentesque pretium dignissim lectus, eget mollis purus suscipit sit amet. Morbi eu faucibus erat.',
+      'Tumbler Shop is an online marketplace that offers a wide selection of tumblers from various brands. Users can easily browse, compare, and purchase their desired tumblers, eliminating the hassle of searching through multiple stores. With a user-friendly interface and convenient features like account registration, product management, and purchase history, Tumbler Shop provides a seamless shopping experience for tumbler enthusiasts.',
     links: [
-      'https://gotogether-s.vercel.app/en',
-      'https://github.com/gotogether-s/gotogether-s',
+      'https://tumbler-shop.netlify.app/',
+      'https://github.com/hyeonahc/tumbler-shop',
     ],
   },
 ]
