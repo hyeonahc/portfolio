@@ -15,12 +15,11 @@ import {
 
 const btnInfo = [
   {
-    name: 'look projects',
-    link: '/portfolio',
-    newTab: false,
+    name: 'view projects',
+    sectionTo: 'projects',
   },
   {
-    name: 'download resume',
+    name: 'view resume',
     link: '/',
     newTab: false,
   },
