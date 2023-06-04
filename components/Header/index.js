@@ -42,7 +42,6 @@ const Header = () => {
   const bulletPointRef = useRef(null)
 
   const clickMenu = value => {
-    console.log(bulletPointRef.current)
     bulletPointRef.current.style.left = value
   }
 
@@ -79,7 +78,8 @@ const Header = () => {
                 key={index}
                 to={menuList.name}
                 smooth={true}
-                onClick={() => clickMenu(menuList.value)}>
+                // onClick={() => clickMenu(menuList.value)}
+              >
                 {menuList.name}
               </Link>
             ))}
