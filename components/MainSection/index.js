@@ -29,7 +29,7 @@ const btnInfo = [
 const MainSection = () => {
   return (
     <Row
-      height='90vh'
+      height='calc(100vh - 5.5em);'
       justifyContent='space-evenly'
       gap='5em'>
       <Col flexBasis='60%'>

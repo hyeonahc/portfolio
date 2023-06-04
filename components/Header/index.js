@@ -13,8 +13,6 @@ const RowHeader = styled(Row)`
   top: 0;
   left: 0;
   z-index: 1;
-  width: 100%;
-  padding: 0.5em 2em;
   background-color: ${props => props.theme.colors.white};
 `
 
@@ -22,8 +20,9 @@ const Header = () => {
   return (
     <RowHeader
       id='home'
-      height='10vh'
-      padding='0.5em 0'
+      width='100%'
+      height='5.5em'
+      padding='0 2em'
       justifyContent='space-between'>
       <Col>
         <Link
