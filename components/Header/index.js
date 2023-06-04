@@ -3,7 +3,7 @@ import logo from '@public/logo.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import { useRef } from 'react'
-import { Link } from 'react-scroll'
+import { Link as Scroll } from 'react-scroll'
 import styled from 'styled-components'
 import { Menu, Nav } from './Header.styled'
 
@@ -53,7 +53,7 @@ const Header = () => {
       padding='0 2em'
       justifyContent='space-between'>
       <Col>
-        <Link
+        <Scroll
           to='home'
           smooth={true}>
           <Image
@@ -63,7 +63,7 @@ const Header = () => {
             alt='logo'
             priority={true}
           />
-        </Link>
+        </Scroll>
       </Col>
       <Col>
         <Nav>
@@ -74,14 +74,14 @@ const Header = () => {
               left='-15px'
             />
             {menuLists.map((menuList, index) => (
-              <Link
+              <Scroll
                 key={index}
                 to={menuList.name}
                 smooth={true}
                 // onClick={() => clickMenu(menuList.value)}
               >
                 {menuList.name}
-              </Link>
+              </Scroll>
             ))}
           </Menu>
           <Social />
