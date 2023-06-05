@@ -17,7 +17,7 @@ export const Title = styled.h2`
 
 export const Tags = styled.div`
   display: flex;
-  gap: 0.75em;
+  gap: 0.25em;
   margin-bottom: 1.5em;
 `
 
@@ -32,7 +32,6 @@ export const Tag = styled.span`
   font-size: ${props => props.theme.fontSizes.sm};
   font-weight: ${props => props.theme.fontWeight.light};
   color: ${props => props.theme.colors.primary};
-  margin-left: 0.25em;
 `
 
 export const Description = styled.p`

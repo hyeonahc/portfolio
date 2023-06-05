@@ -7,7 +7,7 @@ const projectData = [
   {
     date: 'Sep 2022 – Feb 2023',
     title: 'go together travel agency',
-    tags: [
+    devs: [
       'Next.js',
       'TypeScript',
       'Redux toolkit',
@@ -26,7 +26,7 @@ const projectData = [
   {
     date: 'Feb 2023 - Feb 2023 ',
     title: 'Recipe World',
-    tags: ['React.js', 'Redux toolkit', 'react-router-dom v6', 'MUI'],
+    devs: ['React.js', 'Redux toolkit', 'react-router-dom v6', 'MUI'],
     description:
       'Recipe World is a recipe search website that utilizes a database obtained from the spoonacular API. It allows users to search for food recipes by cuisine and provides detailed information about the cuisine, including its health information (such as vegan and dairy-free options), a list of ingredients with measurements, and cooking instructions.',
     links: [
@@ -36,8 +36,8 @@ const projectData = [
   },
   {
     date: 'June 2022 – July 2022',
-    title: 'tumbler shop',
-    tags: ['Vue.js', 'Vuex', 'Scss'],
+    title: 'tumbler shop (Korean)',
+    devs: ['Vue.js', 'Vuex', 'Scss'],
     description:
       'Tumbler Shop is an online marketplace that offers a wide selection of tumblers from various brands. Users can easily browse, compare, and purchase their desired tumblers, eliminating the hassle of searching through multiple stores. With a user-friendly interface and convenient features like account registration, product management, and purchase history, Tumbler Shop provides a seamless shopping experience for tumbler enthusiasts.',
     links: [

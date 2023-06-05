@@ -1,6 +1,4 @@
 import Button from '@components/Common/Button'
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import project from '@public/project.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
@@ -15,7 +13,7 @@ import {
 } from './ProjectItem.styled'
 
 const ProjectItem = ({ projectItemData, projectNumber }) => {
-  const { date, title, tags, description, links } = projectItemData
+  const { date, title, devs, description, links } = projectItemData
 
   const initialBtnInfo = [
     {
@@ -70,10 +68,9 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
         </Date>
         <Title>{title}</Title>
         <Tags>
-          {tags.map((tag, index) => (
+          {devs.map((dev, index) => (
             <TagBox key={index}>
-              <FontAwesomeIcon icon={faPlay} />
-              <Tag>{tag}</Tag>
+              <Tag>#{dev}</Tag>
             </TagBox>
           ))}
         </Tags>
