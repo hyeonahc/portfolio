@@ -50,12 +50,15 @@ const AboutSection = () => {
           />
         </Title>
         <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-          ultrices libero nec imperdiet sollicitudin. Phasellus consectetur
-          augue justo, et imperdiet lorem porttitor nec. Duis ut magna ut velit
-          mattis maximus. Integer aliquet tellus ante, id laoreet enim varius
-          non. Pellentesque ullamcorper tincidunt nibh, sit amet luctus nulla
-          commodo sit amet.
+          I firmly believe that a well-designed and interactive website can
+          leave a lasting impression on users. As a front-end developer, I
+          specialize in crafting intuitive user interfaces and seamless
+          interactions that not only captivate visitors but also make their
+          online experiences enjoyable and effortless.
+          <br />
+          <br />
+          My journey as a front-end developer has allowed me to acquire a
+          diverse skill set that encompasses proficiency in the folloing:
         </Paragraph>
         <Tags>
           {tags.map((tag, index) => (
