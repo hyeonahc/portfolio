@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	p, ul, li {
-		line-height: normal;
+		line-height: 1.4;
 		font-weight: ${props => props.theme.fontWeight.light};
 	}
 
