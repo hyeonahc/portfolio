@@ -29,8 +29,8 @@ const MainSection = () => {
   return (
     <Row
       height='calc(100vh - 5.5em);'
-      justifyContent='space-evenly'
-      gap='5em'>
+      justifyContent='center'
+      gap='3em'>
       <Col flexBasis='60%'>
         <ProfileCopy>
           <Hello>

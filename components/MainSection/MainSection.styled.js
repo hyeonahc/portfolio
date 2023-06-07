@@ -26,6 +26,7 @@ export const Hyeonah = styled.p`
 `
 
 export const Paragraph = styled.p`
+  max-width: 550px;
   margin: 2em 0;
 `
 
