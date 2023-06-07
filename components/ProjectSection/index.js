@@ -5,17 +5,9 @@ import { Title } from './ProjectSection.styled'
 
 const projectData = [
   {
-    date: 'Sep 2022 – Feb 2023',
+    date: 'Sep 2022 – Feb 2023 (6 months)',
     title: 'go together travel agency',
-    devs: [
-      'Next.js',
-      'TypeScript',
-      'Redux toolkit',
-      'MUI',
-      'Java',
-      'Spring',
-      'Jenkins',
-    ],
+    devs: ['Next.js', 'TypeScript', 'Redux toolkit', 'MUI', 'Java', 'Spring'],
     description:
       'Go Together is a travel service platform that aims to provide convenient vacation package bookings for seniors and individuals who face challenges in planning their travels. The client, Go Together Travel Agency (operated by The Shiny), required the development of a new website to address their specific requirements. The project team consists of eight members working on website design and development.',
     links: [
@@ -24,20 +16,20 @@ const projectData = [
     ],
   },
   {
-    date: 'Feb 2023 - Feb 2023 ',
-    title: 'Recipe World',
-    devs: ['React.js', 'Redux toolkit', 'react-router-dom v6', 'MUI'],
+    date: 'May 2022 (2 weeks)',
+    title: 'Fresh Tomatoes',
+    devs: ['JavaScript ES6', 'Fetch API', 'SCSS'],
     description:
-      'Recipe World is a recipe search website that utilizes a database obtained from the spoonacular API. It allows users to search for food recipes by cuisine and provides detailed information about the cuisine, including its health information (such as vegan and dairy-free options), a list of ingredients with measurements, and cooking instructions.',
+      'Fresh Tomatoes is an innovative and user-friendly online platform designed to enhance your movie and TV show discovery experience. With its extensive database sourced from the OMDb API, Fresh Tomatoes provides you with a seamless and efficient search process to find your favorite movies, TV shows, and celebrity content.',
     links: [
-      'https://welcometorecipeworld.netlify.app/',
-      'https://github.com/hyeonahc/recipe-website',
+      'https://fresh-tomatoes-movie-search.netlify.app/',
+      'https://github.com/hyeonahc/fresh-tomatoes',
     ],
   },
   {
-    date: 'June 2022 – July 2022',
+    date: 'June 2022 – July 2022 (1 month)',
     title: 'tumbler shop (Korean)',
-    devs: ['Vue.js', 'Vuex', 'Scss'],
+    devs: ['Vue.js', 'Vuex', 'SCSS'],
     description:
       'Tumbler Shop is an online marketplace that offers a wide selection of tumblers from various brands. Users can easily browse, compare, and purchase their desired tumblers, eliminating the hassle of searching through multiple stores. With a user-friendly interface and convenient features like account registration, product management, and purchase history, Tumbler Shop provides a seamless shopping experience for tumbler enthusiasts.',
     links: [
