@@ -1,10 +1,15 @@
 import ProjectCTA from '@components/ProjectSection/ProjectCTA'
 import ProjectItem from '@components/ProjectSection/ProjectItem'
+import freshTomatoes from '@public/project-thumbnail-fresh-tomatoes.png'
+import goTogether from '@public/project-thumbnail-go-together.png'
+import tumblerShop from '@public/project-thumbnail-tumbler-shop.png'
 import { BulletPoint } from '@styles/globals'
 import { Title } from './ProjectSection.styled'
 
 const projectData = [
   {
+    thumbnail: goTogether,
+    maxWidth: '300px',
     date: 'Sep 2022 – Feb 2023 (6 months)',
     title: 'go together travel agency',
     devs: ['Next.js', 'TypeScript', 'Redux toolkit', 'MUI', 'Java', 'Spring'],
@@ -16,6 +21,8 @@ const projectData = [
     ],
   },
   {
+    thumbnail: freshTomatoes,
+    maxWidth: '600px',
     date: 'May 2022 (2 weeks)',
     title: 'Fresh Tomatoes',
     devs: ['JavaScript ES6', 'Fetch API', 'SCSS'],
@@ -27,6 +34,8 @@ const projectData = [
     ],
   },
   {
+    thumbnail: tumblerShop,
+    maxWidth: '600px',
     date: 'June 2022 – July 2022 (1 month)',
     title: 'tumbler shop (Korean)',
     devs: ['Vue.js', 'Vuex', 'SCSS'],

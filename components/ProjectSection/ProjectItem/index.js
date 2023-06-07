@@ -1,5 +1,4 @@
 import Button from '@components/Common/Button'
-import project from '@public/project.png'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
@@ -13,7 +12,8 @@ import {
 } from './ProjectItem.styled'
 
 const ProjectItem = ({ projectItemData, projectNumber }) => {
-  const { date, title, devs, description, links } = projectItemData
+  const { thumbnail, maxWidth, date, title, devs, description, links } =
+    projectItemData
 
   const initialBtnInfo = [
     {
@@ -51,11 +51,11 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
       gap='5em'>
       <Col order={projectNumber === 2 ? 1 : 0}>
         <Image
-          src={project}
+          src={thumbnail}
           width='100%'
           height='100%'
           alt='project picture'
-          style={{ width: '100%', height: '100%' }}
+          style={{ width: '100%', height: '100%', maxWidth: maxWidth }}
         />
       </Col>
       <Col flexBasis='70%'>
