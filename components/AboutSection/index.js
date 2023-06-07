@@ -28,8 +28,8 @@ const AboutSection = () => {
     <>
       <Row
         id='about'
-        height='90vh'
-        justifyContent='space-evenly'
+        padding='150px 0 100px 0'
+        justifyContent='center'
         gap='5em'>
         <Col flexBasis='40%'>
           <ImageWrapper>
@@ -72,7 +72,7 @@ const AboutSection = () => {
           </Tags>
         </Col>
       </Row>
-      <Row>
+      <Row padding='0 0 100px 0'>
         <Col flexBasis='100%'>
           <Achievement />
         </Col>
