@@ -44,10 +44,11 @@ const MainSection = () => {
             I am <Highlight>Hyeonah</Highlight>
           </Hyeonah>
           <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            rutrum blandit lorem in pulvinar. Ut ultricies justo non lacus
-            sodales placerat in in velit. Nam euismod placerat laoreet.
-            Pellentesque fringilla molestie dolor, id sagittis neque iaculis ac.
+            Hello, and welcome to my portfolio! I&apos;m a passionate front-end
+            developer dedicated to creating engaging and functional web
+            applications that enhance the user experience. With a strong passion
+            for technology and an eye for design, I strive to deliver visually
+            stunning and seamless solutions to make people&apos;s lives better.
           </Paragraph>
           <Button btnInfo={btnInfo} />
         </ProfileCopy>
