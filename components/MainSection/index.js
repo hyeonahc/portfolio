@@ -27,7 +27,9 @@ const btnInfo = [
 const MainSection = () => {
   return (
     <Row
-      height='calc(100vh - 5.5em);'
+      id='home'
+      height='100vh'
+      padding='5.5em 0 0 0 '
       justifyContent='center'
       gap='3em'>
       <Col flexBasis='60%'>

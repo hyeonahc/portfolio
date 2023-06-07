@@ -47,7 +47,6 @@ const Header = () => {
 
   return (
     <RowHeader
-      id='home'
       width='100%'
       height='5.5em'
       padding='0 2em'
@@ -62,6 +61,7 @@ const Header = () => {
             height={60}
             alt='logo'
             priority={true}
+            style={{ cursor: 'pointer' }}
           />
         </Scroll>
       </Col>
@@ -78,6 +78,7 @@ const Header = () => {
                 key={index}
                 to={menuList.name}
                 smooth={true}
+                offset={-100}
                 // onClick={() => clickMenu(menuList.value)}
               >
                 {menuList.name}

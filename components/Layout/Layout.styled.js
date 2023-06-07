@@ -5,17 +5,17 @@ export const Container = styled.div`
   width: ${props => props.theme.breakpoints.xxl};
   margin: 0 auto;
   position: relative;
-  padding: 5.5em 0 0;
+  padding: 0 0 0;
   @media (max-width: ${props => props.theme.breakpoints.xxxl}) {
     width: auto;
     margin: 0;
-    padding: 5.5em 5em 0;
+    padding: 0 5em 0;
   }
   @media (max-width: ${props => props.theme.breakpoints.xl}) {
-    padding: 5.5em 2em 0;
+    padding: 0 2em 0;
   }
   @media (max-width: ${props => props.theme.breakpoints.md}) {
-    padding: 5.5em 0 0;
+    padding: 0;
   }
 `
 
