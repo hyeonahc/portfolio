@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  height: 10em;
   width: 17em;
   margin: 0 auto;
   display: flex;
@@ -17,6 +16,7 @@ export const Emoji = styled.p`
 export const Number = styled.p`
   font-size: ${props => props.theme.fontSizes.xxl};
   font-weight: ${props => props.theme.fontWeight.black};
+  text-align: center;
 `
 
 export const Description = styled.p`

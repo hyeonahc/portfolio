@@ -5,24 +5,26 @@ const Achievement = () => {
   const achievementData = [
     {
       emoji: '💼',
-      number: '2.5',
-      description: 'Over the past 3 years, I’ve worked with 4 companies',
+      number: '3+ Years',
+      description:
+        'With three years of hands-on experience in the field of front-end development, I have honed my skills and expertise in crafting visually stunning and user-friendly websites. ',
     },
     {
       emoji: '👩🏻‍💻',
-      number: '30+',
+      number: '40+ Websites',
       description:
-        'I designed, developed, fixed, hosted, maintained more than 30 websites',
+        'I successfully developed and maintained over 40 websites across diverse industries',
     },
     {
       emoji: '⚡',
-      number: '1,661',
-      description: 'I made 1,661 contributions in 2022',
+      number: '1,661 Contributions',
+      description:
+        'Throughout the year of 2022, I made an impressive 1,661 contributions in GitHub',
     },
   ]
 
   return (
-    <Row height='250px'>
+    <Row padding='50px 0'>
       {achievementData.map((achievement, index) => (
         <Col
           key={index}
