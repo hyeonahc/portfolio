@@ -13,7 +13,7 @@ const ContactSection = () => {
   return (
     <Row
       id='contact'
-      padding='5em 0'
+      padding='150px 0'
       flexDirection='column'
       gap='1.5em'>
       <Title>
