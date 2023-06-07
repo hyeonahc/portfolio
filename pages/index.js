@@ -1,5 +1,4 @@
 import AboutSection from '@components/AboutSection'
-import AchievementSection from '@components/AchievementSection'
 import ContactSection from '@components/ContactSection'
 import ExperienceSection from '@components/ExperienceSection'
 import MainSection from '@components/MainSection'
@@ -11,7 +10,6 @@ const Home = () => {
       <MainSection />
       <ProjectSection />
       <AboutSection />
-      <AchievementSection />
       <ExperienceSection />
       <ContactSection />
     </div>

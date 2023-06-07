@@ -1,7 +1,7 @@
 import { Col, Row } from '@styles/globals'
 import { Description, Emoji, Number, Wrapper } from './Achievement.styled'
 
-const AchievementSection = () => {
+const Achievement = () => {
   const achievementData = [
     {
       emoji: '💼',
@@ -38,4 +38,4 @@ const AchievementSection = () => {
   )
 }
 
-export default AchievementSection
+export default Achievement
