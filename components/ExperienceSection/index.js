@@ -29,10 +29,8 @@ const ExperienceSection = () => {
   return (
     <Row
       id='experience'
-      height='90vh'
       flexDirection='row'
-      justifyContent='center'
-      gap='1em'>
+      justifyContent='center'>
       <Col flexBasis='80%'>
         <Title>
           my journey

@@ -38,6 +38,7 @@ export const Tab = styled.li`
 `
 
 export const Content = styled.div`
+  padding-top: 20px;
   flex-basis: 70%;
 `
 
@@ -67,7 +68,7 @@ export const Duration = styled.p``
 export const ExperienceUl = styled.ul``
 
 export const ExperienceLi = styled.li`
-  margin-bottom: 0.75em;
+  margin-bottom: 5px;
   svg {
     font-size: ${props => props.theme.fontSizes.xs};
     color: ${props => props.theme.colors.primary};
