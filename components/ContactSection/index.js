@@ -20,8 +20,9 @@ const ContactSection = () => {
         let&apos;s <Highlight>work together</Highlight>
       </Title>
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-        luctus sodales ante porttitor dignissim.
+        Let&apos;s turn your ideas into reality!
+        <br />
+        Reach out and let&apos;s create something amazing together.
       </Paragraph>
       <Button btnInfo={btnInfo} />
     </Row>
