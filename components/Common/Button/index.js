@@ -11,7 +11,8 @@ const Button = ({ btnInfo }) => {
             <Scroll
               key={index}
               to={btn.sectionTo}
-              smooth={true}>
+              smooth={true}
+              offset={-100}>
               <StyledButton primary={index && true}>{btn.name}</StyledButton>
             </Scroll>
           ) : (
