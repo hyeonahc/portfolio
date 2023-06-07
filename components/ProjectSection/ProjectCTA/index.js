@@ -3,17 +3,20 @@ import { BulletPoint, Row } from '@styles/globals'
 import { Title } from './ProjectCTA.styled'
 
 const btnInfo = [
+  // {
+  //   name: 'load more projects',
+  //   link: '/portfolio',
+  //   newTab: false,
+  // },
   {
     name: 'load more projects',
-    link: '/portfolio',
-    newTab: false,
+    link: 'https://github.com/hyeonahc',
   },
 ]
 
 const ProjectCTA = () => {
   return (
     <Row
-      padding='5em 0'
       flexDirection='column'
       gap='1.5em'>
       <Title>

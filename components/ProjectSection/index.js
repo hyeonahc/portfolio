@@ -9,7 +9,7 @@ import { Title } from './ProjectSection.styled'
 const projectData = [
   {
     thumbnail: goTogether,
-    maxWidth: '300px',
+    maxWidth: '250px',
     date: 'Sep 2022 – Feb 2023 (6 months)',
     title: 'go together travel agency',
     devs: ['Next.js', 'TypeScript', 'Redux toolkit', 'MUI', 'Java', 'Spring'],
@@ -22,7 +22,7 @@ const projectData = [
   },
   {
     thumbnail: freshTomatoes,
-    maxWidth: '600px',
+    maxWidth: '550px',
     date: 'May 2022 (2 weeks)',
     title: 'Fresh Tomatoes',
     devs: ['JavaScript ES6', 'Fetch API', 'SCSS'],
@@ -35,7 +35,7 @@ const projectData = [
   },
   {
     thumbnail: tumblerShop,
-    maxWidth: '600px',
+    maxWidth: '550px',
     date: 'June 2022 – July 2022 (1 month)',
     title: 'tumbler shop (Korean)',
     devs: ['Vue.js', 'Vuex', 'SCSS'],

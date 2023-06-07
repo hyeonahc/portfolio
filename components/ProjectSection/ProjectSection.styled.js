@@ -7,5 +7,5 @@ export const Title = styled.h2`
   text-transform: uppercase;
   line-height: normal;
   position: relative;
-  margin-bottom: 0.3em;
+  margin-bottom: 30px;
 `

@@ -35,5 +35,6 @@ export const Tag = styled.span`
 `
 
 export const Description = styled.p`
+  max-width: 550px;
   margin-bottom: 1.5em;
 `

@@ -19,12 +19,10 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
     {
       name: 'visit website',
       link: '',
-      newTab: true,
     },
     {
       name: 'view project detail',
       link: '',
-      newTab: true,
     },
   ]
 
@@ -46,9 +44,9 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
 
   return (
     <Row
-      padding='10em 0'
+      padding='0 0 150px 0'
       justifyContent='space-evenly'
-      gap='5em'>
+      gap='3em'>
       <Col order={projectNumber === 2 ? 1 : 0}>
         <Image
           src={thumbnail}
@@ -58,7 +56,7 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
           style={{ width: '100%', height: '100%', maxWidth: maxWidth }}
         />
       </Col>
-      <Col flexBasis='70%'>
+      <Col>
         <Date>
           <BulletPoint
             top='-10px'
