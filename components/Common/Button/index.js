@@ -18,7 +18,7 @@ const Button = ({ btnInfo }) => {
             <Link
               key={index}
               href={btn.link}
-              target={btn.newTab ? '_blank' : '_self'}>
+              target={btn.link && '_blank'}>
               <StyledButton primary={index && true}>{btn.name}</StyledButton>
             </Link>
           )

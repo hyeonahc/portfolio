@@ -21,7 +21,6 @@ const btnInfo = [
   {
     name: 'view resume',
     link: '/',
-    newTab: false,
   },
 ]
 
