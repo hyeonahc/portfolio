@@ -14,8 +14,8 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	body {
-		font-family: 'Lato', sans-serif;
-		font-size: 1.7rem;
+		font-family: 'Inter', sans-serif;
+		font-size: 1.6rem;
 	}
 
 	p, ul, li {

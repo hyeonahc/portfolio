@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Author = styled.p`
   margin-bottom: 0.3em;
   a {
-    font-family: ${props => props.theme.fontFamily.lato};
+    font-family: ${props => props.theme.fontFamily.Inter};
     color: ${props => props.theme.colors.primary};
     text-decoration: underline;
   }

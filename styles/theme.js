@@ -6,7 +6,7 @@ const colors = {
 }
 
 const fontFamily = {
-  lato: 'Lato',
+  Inter: 'Inter',
   poppins: 'Poppins',
 }
 
