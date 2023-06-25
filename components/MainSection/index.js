@@ -20,7 +20,7 @@ const btnInfo = [
   },
   {
     name: 'view resume',
-    link: 'https://drive.google.com/file/d/1rtUGecT23ldJvnYRFhDjzpqlVXad8Fxk/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1x1nJMJYpPM4_3cGaOuyEdjWynzVP19S5/view?usp=sharing',
   },
 ]
 
