@@ -1,11 +1,10 @@
 import Social from '@components/Common/Social'
 import logo from '@public/logo.png'
-import { BulletPoint, Col, Row } from '@styles/globals'
+import { BulletPoint, Col } from '@styles/globals'
 import Image from 'next/image'
-import { useRef } from 'react'
+// import { useRef } from 'react'
 import { Link as Scroll } from 'react-scroll'
-import styled from 'styled-components'
-import { Menu, Nav } from './Header.styled'
+import { Menu, Nav, RowHeader } from './Header.styled'
 
 const menuLists = [
   {
@@ -30,20 +29,12 @@ const menuLists = [
   },
 ]
 
-const RowHeader = styled(Row)`
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-color: ${props => props.theme.colors.white};
-`
-
 const Header = () => {
-  const bulletPointRef = useRef(null)
+  // const bulletPointRef = useRef(null)
 
-  const clickMenu = value => {
-    bulletPointRef.current.style.left = value
-  }
+  // const clickMenu = value => {
+  //   bulletPointRef.current.style.left = value
+  // }
 
   return (
     <RowHeader
@@ -69,7 +60,7 @@ const Header = () => {
         <Nav>
           <Menu>
             <BulletPoint
-              ref={bulletPointRef}
+              // ref={bulletPointRef}
               top='-10px'
               left='-15px'
             />
