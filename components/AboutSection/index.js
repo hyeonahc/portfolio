@@ -14,7 +14,6 @@ import {
   Tags,
   Title,
 } from './AboutSection.styled'
-import Achievement from './Achievement'
 
 const tags = [
   'JavaScript, TypeScript',
@@ -68,11 +67,6 @@ const AboutSection = () => {
               </TagBox>
             ))}
           </Tags>
-        </Col>
-      </Row>
-      <Row padding='0 0 100px 0'>
-        <Col flexBasis='100%'>
-          <Achievement />
         </Col>
       </Row>
     </>

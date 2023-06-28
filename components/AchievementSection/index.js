@@ -1,5 +1,11 @@
-import { Col, Row } from '@styles/globals'
-import { Description, Emoji, Number, Wrapper } from './Achievement.styled'
+import {
+  Col,
+  Description,
+  Emoji,
+  Number,
+  Row,
+  Wrapper,
+} from './AchievementSection.styled'
 
 const Achievement = () => {
   const achievementData = [
@@ -24,11 +30,9 @@ const Achievement = () => {
   ]
 
   return (
-    <Row padding='50px 0'>
+    <Row>
       {achievementData.map((achievement, index) => (
-        <Col
-          key={index}
-          flexBasis='33.333%'>
+        <Col key={index}>
           <Wrapper>
             <Emoji>{achievement.emoji}</Emoji>
             <Number>{achievement.number}</Number>
