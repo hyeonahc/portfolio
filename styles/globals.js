@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
 	body {
 		font-family: 'Inter', sans-serif;
 		font-size: 1.6rem;
+		color: ${props => props.theme.colors.black};
 	}
 
 	p, ul, li {
