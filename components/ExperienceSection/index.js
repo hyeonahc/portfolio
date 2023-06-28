@@ -19,7 +19,7 @@ import {
   Tabs,
   Title,
 } from './ExperienceSection.styled'
-import { MyJourneys } from './MyJourneys'
+import { experienceData } from './experienceData.js'
 
 const ExperienceSection = () => {
   const [currentTabIndex, setCurrentTabIndex] = useState(0)
@@ -71,7 +71,7 @@ const ExperienceSection = () => {
         </Title>
         <ExperienceWrapper>
           <Tabs>
-            {MyJourneys.map((myJourney, index) => (
+            {experienceData.map((experience, index) => (
               <Tab
                 key={index}
                 id={index}
@@ -92,27 +92,27 @@ const ExperienceSection = () => {
                       </IconCompleted>
                     )}
                   </Indicator>
-                  <Label>{myJourney.year}</Label>
+                  <Label>{experience.year}</Label>
                 </TabButton>
               </Tab>
             ))}
           </Tabs>
           <Content>
-            {MyJourneys.map((myJourney, index) => (
+            {experienceData.map((experience, index) => (
               <div key={index}>
                 {currentTabIndex === index && (
                   <>
-                    <Position>{myJourney.position}</Position>
+                    <Position>{experience.position}</Position>
                     <OrganizationDurationWrapper>
                       <Organization>
-                        <Link href={myJourney.link}>
-                          @ {myJourney.organization}
+                        <Link href={experience.link}>
+                          @ {experience.organization}
                         </Link>
                       </Organization>
-                      <p>{myJourney.duration}</p>
+                      <p>{experience.duration}</p>
                     </OrganizationDurationWrapper>
                     <ul>
-                      {myJourney.experiences.map((experience, index) => (
+                      {experience.experiences.map((experience, index) => (
                         <ExperienceList key={index}>
                           <FontAwesomeIcon icon={faPlay} />
                           {experience}

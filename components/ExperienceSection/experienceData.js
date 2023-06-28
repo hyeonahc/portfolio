@@ -1,4 +1,4 @@
-export const MyJourneys = [
+export const experienceData = [
   {
     year: '2023',
     organization: 'Frontdreams Technologies',
