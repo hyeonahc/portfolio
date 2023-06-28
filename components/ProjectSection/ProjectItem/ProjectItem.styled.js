@@ -1,5 +1,28 @@
 import styled from 'styled-components'
 
+export const Row = styled.div`
+  padding: 0 0 150px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-direction: column;
+  }
+`
+
+export const Col = styled.div`
+  order: ${props => props.order};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+`
+
 export const Date = styled.p`
   font-weight: ${props => props.theme.fontWeight.light};
   color: ${props => props.theme.colors.primary};

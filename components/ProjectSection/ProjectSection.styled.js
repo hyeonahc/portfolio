@@ -8,4 +8,7 @@ export const Title = styled.h2`
   line-height: normal;
   position: relative;
   margin-bottom: 30px;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    text-align: center;
+  }
 `

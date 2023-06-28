@@ -1,10 +1,12 @@
 import Button from '@components/Common/Button'
-import { BulletPoint, Col, Row } from '@styles/globals'
+import { BulletPoint } from '@styles/globals'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import {
+  Col,
   Date,
   Description,
+  Row,
   Tag,
   TagBox,
   Tags,
@@ -43,10 +45,7 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
   }, [])
 
   return (
-    <Row
-      padding='0 0 150px 0'
-      justifyContent='space-evenly'
-      gap='3em'>
+    <Row>
       <Col order={projectNumber === 2 ? 1 : 0}>
         <Image
           src={thumbnail}
