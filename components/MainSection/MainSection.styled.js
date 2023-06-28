@@ -1,5 +1,25 @@
 import styled from 'styled-components'
 
+export const Row = styled.div`
+  height: 100vh;
+  padding: 5.5em 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-direction: column;
+  }
+`
+
+export const Col = styled.div`
+  flex-basis: ${props => props.flexBasis};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+    order: ${props => props.mdOrder};
+  }
+`
+
 export const ProfileCopy = styled.div`
   display: flex;
   flex-direction: column;

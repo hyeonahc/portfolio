@@ -1,15 +1,17 @@
 import Button from '@components/Common/Button'
 import profile from '@public/profile.png'
-import { BulletPoint, Col, Highlight, Row } from '@styles/globals'
+import { BulletPoint, Highlight } from '@styles/globals'
 import Image from 'next/image'
 import {
   Circle,
+  Col,
   Hello,
   Hyeonah,
   Paragraph,
   ProfileCopy,
   ProfilePhoto,
   Rectangle,
+  Row,
   Square,
 } from './MainSection.styled'
 
@@ -26,13 +28,7 @@ const btnInfo = [
 
 const MainSection = () => {
   return (
-    <Row
-      id='home'
-      height='100vh'
-      padding='5.5em 0 0 0 '
-      justifyContent='center'
-      gap='3em'
-      MdFlexDirection='column'>
+    <Row id='home'>
       <Col
         flexBasis='60%'
         mdOrder='1'>
