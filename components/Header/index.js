@@ -27,7 +27,7 @@ const menuLists = [
     value: '160px',
   },
   {
-    name: 'experience',
+    name: 'my journey',
     value: '240px',
   },
   {

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BulletPoint, Col, Row } from '@styles/globals'
 import Link from 'next/link'
 import { useState } from 'react'
+import { MyJourneyData } from './MyJourneyData.js'
 import {
   Content,
   ExperienceList,
@@ -18,10 +19,9 @@ import {
   TabButton,
   Tabs,
   Title,
-} from './ExperienceSection.styled'
-import { experienceData } from './experienceData.js'
+} from './MyJourneySection.styled'
 
-const ExperienceSection = () => {
+const MyJourneySection = () => {
   const [currentTabIndex, setCurrentTabIndex] = useState(0)
   const [currentStep, setCurrentStep] = useState(1)
   const [completedStep, setCompletedStep] = useState(0)
@@ -71,7 +71,7 @@ const ExperienceSection = () => {
         </Title>
         <ExperienceWrapper>
           <Tabs>
-            {experienceData.map((experience, index) => (
+            {MyJourneyData.map((myJourney, index) => (
               <Tab
                 key={index}
                 id={index}
@@ -92,30 +92,30 @@ const ExperienceSection = () => {
                       </IconCompleted>
                     )}
                   </Indicator>
-                  <Label>{experience.year}</Label>
+                  <Label>{myJourney.year}</Label>
                 </TabButton>
               </Tab>
             ))}
           </Tabs>
           <Content>
-            {experienceData.map((experience, index) => (
+            {MyJourneyData.map((myJourney, index) => (
               <div key={index}>
                 {currentTabIndex === index && (
                   <>
-                    <Position>{experience.position}</Position>
+                    <Position>{myJourney.position}</Position>
                     <OrganizationDurationWrapper>
                       <Organization>
-                        <Link href={experience.link}>
-                          @ {experience.organization}
+                        <Link href={myJourney.link}>
+                          @ {myJourney.organization}
                         </Link>
                       </Organization>
-                      <p>{experience.duration}</p>
+                      <p>{myJourney.duration}</p>
                     </OrganizationDurationWrapper>
                     <ul>
-                      {experience.experiences.map((experience, index) => (
+                      {myJourney.experiences.map((myJourney, index) => (
                         <ExperienceList key={index}>
                           <FontAwesomeIcon icon={faPlay} />
-                          {experience}
+                          {myJourney}
                         </ExperienceList>
                       ))}
                     </ul>
@@ -130,4 +130,4 @@ const ExperienceSection = () => {
   )
 }
 
-export default ExperienceSection
+export default MyJourneySection
