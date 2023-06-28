@@ -3,6 +3,9 @@ import styled from 'styled-components'
 export const ProfileCopy = styled.div`
   display: flex;
   flex-direction: column;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    align-items: center;
+  }
 `
 
 export const Hello = styled.p`
@@ -14,25 +17,39 @@ export const Hello = styled.p`
   letter-spacing: 1px;
   margin-bottom: 1em;
   position: relative;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    font-size: ${props => props.theme.fontSizes.xmd};
+    margin-bottom: 0.5em;
+  }
 `
 
 export const Hyeonah = styled.p`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxxl};
+  font-size: ${props => props.theme.fontSizes.xxxxl};
   font-weight: ${props => props.theme.fontWeight.black};
   text-transform: uppercase;
   line-height: unset;
   letter-spacing: 2px;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    font-size: ${props => props.theme.fontSizes.xxxl};
+  }
 `
 
 export const Paragraph = styled.p`
   max-width: 550px;
   margin: 2em 0;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    margin: 1.5em 0;
+    text-align: center;
+  }
 `
 
 export const ProfilePhoto = styled.div`
   height: 50vh;
   position: relative;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    height: 35vh;
+  }
 `
 
 export const Shapes = styled.div`
@@ -49,7 +66,6 @@ export const Rectangle = styled.div`
 `
 
 export const Circle = styled.div`
-  /* border: 4px solid ${props => props.theme.colors.primary}; */
   border-radius: 100%;
   width: 1.25em;
   height: 1.25em;
@@ -59,7 +75,6 @@ export const Circle = styled.div`
 `
 
 export const Square = styled.div`
-  /* border: 8px solid ${props => props.theme.colors.primary}; */
   width: 2.5em;
   height: 2.5em;
   position: absolute;

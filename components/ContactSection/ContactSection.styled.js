@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Title = styled.p`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxxl};
+  font-size: ${props => props.theme.fontSizes.xxxxl};
   font-weight: ${props => props.theme.fontWeight.black};
   text-transform: uppercase;
   line-height: unset;

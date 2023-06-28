@@ -56,12 +56,19 @@ export const Row = styled.div`
   align-items: center;
   justify-content: ${props => props.justifyContent};
   gap: ${props => props.gap};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-direction: ${props => props.MdFlexDirection};
+  }
 `
 
 export const Col = styled.div`
   /* border: 1px solid green; */
   flex-basis: ${props => props.flexBasis};
   order: ${props => props.order};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+    order: ${props => props.mdOrder};
+  }
 `
 
 // Shared Design

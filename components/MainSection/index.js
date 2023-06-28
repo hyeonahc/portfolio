@@ -31,8 +31,11 @@ const MainSection = () => {
       height='100vh'
       padding='5.5em 0 0 0 '
       justifyContent='center'
-      gap='3em'>
-      <Col flexBasis='60%'>
+      gap='3em'
+      MdFlexDirection='column'>
+      <Col
+        flexBasis='60%'
+        mdOrder='1'>
         <ProfileCopy>
           <Hello>
             <BulletPoint

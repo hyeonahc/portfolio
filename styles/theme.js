@@ -19,7 +19,8 @@ const fontSizes = {
   lg: '2rem',
   xl: '2.5rem',
   xxl: '3.5rem',
-  xxxl: '5rem',
+  xxxl: '4rem',
+  xxxxl: '5rem',
 }
 
 const fontWeight = {
