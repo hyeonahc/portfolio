@@ -1,5 +1,27 @@
 import styled from 'styled-components'
 
+export const Row = styled.div`
+  padding: 150px 0 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-direction: column;
+  }
+`
+
+export const Col = styled.div`
+  flex-basis: ${props => props.flexBasis};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 550px;
+  }
+`
+
 export const ImageWrapper = styled.div`
   position: relative;
 `
@@ -26,12 +48,18 @@ export const Title = styled.h2`
 
 export const Paragraph = styled.p`
   margin-bottom: 2em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    text-align: center;
+  }
 `
 
 export const Tags = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    justify-content: center;
+  }
 `
 
 export const TagBox = styled.div`

@@ -1,11 +1,13 @@
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import about from '@public/about.png'
-import { BulletPoint, Col, Row } from '@styles/globals'
+import { BulletPoint } from '@styles/globals'
 import Image from 'next/image'
 import {
+  Col,
   ImageWrapper,
   Paragraph,
+  Row,
   Square,
   Tag,
   TagBox,
@@ -26,11 +28,7 @@ const tags = [
 const AboutSection = () => {
   return (
     <>
-      <Row
-        id='about'
-        padding='150px 0 100px 0'
-        justifyContent='center'
-        gap='5em'>
+      <Row id='about'>
         <Col flexBasis='40%'>
           <ImageWrapper>
             <Image
