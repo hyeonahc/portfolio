@@ -1,10 +1,11 @@
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { BulletPoint, Col, Row } from '@styles/globals'
+import { BulletPoint } from '@styles/globals'
 import Link from 'next/link'
 import { useState } from 'react'
 import { MyJourneyData } from './MyJourneyData.js'
 import {
+  Col,
   Content,
   ExperienceList,
   ExperienceWrapper,
@@ -15,6 +16,7 @@ import {
   Organization,
   OrganizationDurationWrapper,
   Position,
+  Row,
   Tab,
   TabButton,
   Tabs,
@@ -57,16 +59,14 @@ const MyJourneySection = () => {
   }
 
   return (
-    <Row
-      id='experience'
-      flexDirection='row'
-      justifyContent='center'>
-      <Col flexBasis='80%'>
+    <Row>
+      <Col>
         <Title>
           my journey
           <BulletPoint
             top='1px'
             right='-15px'
+            mdRight='150px'
           />
         </Title>
         <ExperienceWrapper>

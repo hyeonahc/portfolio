@@ -1,5 +1,20 @@
 import styled, { keyframes } from 'styled-components'
 
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`
+
+export const Col = styled.div`
+  flex-basis: 80%;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+    max-width: 550px;
+  }
+`
+
 export const Title = styled.h2`
   font-family: ${props => props.theme.fontFamily.poppins};
   font-size: ${props => props.theme.fontSizes.xxl};
@@ -8,12 +23,20 @@ export const Title = styled.h2`
   text-transform: uppercase;
   line-height: normal;
   position: relative;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    text-align: center;
+    margin-bottom: 1em;
+  }
 `
 
 export const ExperienceWrapper = styled.div`
   display: flex;
   height: 28em;
   gap: 2em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    height: auto;
+    flex-direction: column;
+  }
 `
 
 export const Tabs = styled.ul`
@@ -33,13 +56,32 @@ export const Tabs = styled.ul`
     border-radius: 10px;
     background: linear-gradient(#000cfb, #4777fc, #81b0f7);
   }
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+    display: flex;
+    overflow-y: visible;
+    overflow-x: scroll;
+    height: 100px;
+    &::-webkit-scrollbar {
+      height: 8px;
+      width: auto;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: linear-gradient(90deg, #000cfb, #4777fc, #81b0f7);
+    }
+  }
 `
 
 export const Line = styled.div`
   background-color: ${props => props.theme.colors.grey};
-  height: 50px;
   transition: background-color 0.3s ease-in;
+  height: 50px;
   width: 2px;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    height: 2px;
+    width: 50px;
+  }
 `
 
 export const Indicator = styled.span`
@@ -143,11 +185,17 @@ export const Tab = styled.li`
       transition: background-color 0.2s ease-in;
     }
   }
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-direction: row;
+  }
 `
 
 export const Content = styled.div`
   padding-top: 20px;
   flex-basis: 80%;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+  }
 `
 
 export const Position = styled.h3`

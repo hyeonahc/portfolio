@@ -85,6 +85,9 @@ export const BulletPoint = styled.span`
   top: ${props => props.top};
   left: ${props => props.left};
   right: ${props => props.right};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    right: ${props => props.mdRight};
+  }
 `
 
 export default GlobalStyle
