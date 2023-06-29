@@ -1,16 +1,16 @@
 import Social from '@components/Common/Social'
 import logo from '@public/logo.png'
-import { Col } from '@styles/globals'
 import Image from 'next/image'
 // import { useRef } from 'react'
 import { useState } from 'react'
 import { Link as Scroll } from 'react-scroll'
 import HamburgerNav from './HamburgerNav'
 import {
+  Col,
   HamburgerNavWrapper,
   Menu,
   Navigation,
-  RowHeader,
+  Row,
 } from './Header.styled'
 
 const menuLists = [
@@ -56,11 +56,7 @@ const Header = () => {
   }
 
   return (
-    <RowHeader
-      width='100%'
-      height='5.5em'
-      padding='0 2em'
-      justifyContent='space-between'>
+    <Row>
       <Col>
         <Scroll
           to='home'
@@ -101,7 +97,7 @@ const Header = () => {
           <Social />
         </Navigation>
       </Col>
-    </RowHeader>
+    </Row>
   )
 }
 

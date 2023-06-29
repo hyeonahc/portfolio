@@ -1,13 +1,20 @@
-import { Row } from '@styles/globals'
 import styled from 'styled-components'
 
-export const RowHeader = styled(Row)`
+export const Row = styled.div`
+  width: 100%;
+  height: 5.5em;
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   background-color: ${props => props.theme.colors.white};
 `
+
+export const Col = styled.div``
 
 export const HamburgerNavWrapper = styled.div`
   display: none;
@@ -21,7 +28,7 @@ export const Navigation = styled.div`
   display: flex;
   gap: 1.6em;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
-    display: none;
+    visibility: hidden;
     position: absolute;
     top: 5.5em;
     right: 0;
@@ -31,6 +38,7 @@ export const Navigation = styled.div`
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     &.hamburgerOpen {
       display: block;
+      visibility: visible;
       transform: translate(0, 0);
     }
   }
