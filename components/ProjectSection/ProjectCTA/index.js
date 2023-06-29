@@ -1,6 +1,6 @@
 import Button from '@components/Common/Button'
-import { BulletPoint, Row } from '@styles/globals'
-import { Title } from './ProjectCTA.styled'
+import { BulletPoint } from '@styles/globals'
+import { Row, Title } from './ProjectCTA.styled'
 
 const btnInfo = [
   // {

@@ -45,32 +45,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-// Layout
-export const Row = styled.div`
-  /* border: 1px solid salmon; */
-  width: ${props => props.width};
-  height: ${props => props.height};
-  padding: ${props => props.padding};
-  display: flex;
-  flex-direction: ${props => props.flexDirection};
-  align-items: center;
-  justify-content: ${props => props.justifyContent};
-  gap: ${props => props.gap};
-  @media (max-width: ${props => props.theme.breakpoints.md}) {
-    flex-direction: ${props => props.MdFlexDirection};
-  }
-`
-
-export const Col = styled.div`
-  /* border: 1px solid green; */
-  flex-basis: ${props => props.flexBasis};
-  order: ${props => props.order};
-  @media (max-width: ${props => props.theme.breakpoints.md}) {
-    flex-basis: auto;
-    order: ${props => props.mdOrder};
-  }
-`
-
 // Shared Design
 export const Highlight = styled.span`
   color: ${props => props.theme.colors.primary};
