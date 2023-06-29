@@ -1,6 +1,6 @@
 import Button from '@components/Common/Button'
-import { Highlight, Row } from '@styles/globals'
-import { Paragraph, Title } from './ContactSection.styled'
+import { Highlight } from '@styles/globals'
+import { Paragraph, Row, Title } from './ContactSection.styled'
 
 const btnInfo = [
   {
@@ -11,11 +11,7 @@ const btnInfo = [
 
 const ContactSection = () => {
   return (
-    <Row
-      id='contact'
-      padding='150px 0'
-      flexDirection='column'
-      gap='1.5em'>
+    <Row id='contact'>
       <Title>
         let&apos;s <Highlight>work together</Highlight>
       </Title>
