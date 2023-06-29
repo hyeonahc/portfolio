@@ -19,4 +19,8 @@ export const StyledButton = styled.button`
     props.primary ? 'transparent' : props.theme.colors.primary};
   color: ${props =>
     props.primary ? props.theme.colors.primary : props.theme.colors.white};
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    height: 3.1em;
+    padding: 1rem 2.25rem;
+  }
 `
