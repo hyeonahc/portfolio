@@ -1,13 +1,10 @@
 import Social from '@components/Common/Social'
-import { Row } from '@styles/globals'
 import Link from 'next/link'
-import { Author, Copyright } from './Footer.styled'
+import { Author, Copyright, Row } from './Footer.styled'
 
 const Footer = () => {
   return (
-    <Row
-      padding='2em 0'
-      flexDirection='column'>
+    <Row>
       <Author>
         Designed & Built by{' '}
         <Link

@@ -1,5 +1,12 @@
 import styled from 'styled-components'
 
+export const Row = styled.div`
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 export const Author = styled.p`
   margin-bottom: 0.3em;
   a {
