@@ -6,6 +6,9 @@ export const Row = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1.5em;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    padding: 100px 0;
+  }
 `
 
 export const Title = styled.p`

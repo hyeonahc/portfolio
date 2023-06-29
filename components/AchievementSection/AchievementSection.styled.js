@@ -5,6 +5,7 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
+    padding: 100px 0;
     flex-direction: column;
     gap: 3em;
   }

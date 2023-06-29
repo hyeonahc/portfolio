@@ -7,6 +7,7 @@ export const Row = styled.div`
   justify-content: space-evenly;
   gap: 3em;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
+    padding: 0 0 100px 0;
     flex-direction: column;
   }
 `
