@@ -17,6 +17,10 @@ export const Container = styled.div`
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     padding: 0;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    width: fit-content;
+    padding: 0 1em;
+  }
 `
 
 export const ScrollToTop = styled.div`
