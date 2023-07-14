@@ -13,6 +13,9 @@ export const Row = styled.div`
 
 export const Col = styled.div`
   flex-basis: 33.333%;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    flex-basis: auto;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -22,6 +25,12 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  @media (max-width: ${props => props.theme.breakpoints.md}) {
+    width: 50%;
+  }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    width: 60%;
+  }
 `
 
 export const Emoji = styled.p`

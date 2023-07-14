@@ -10,6 +10,9 @@ export const Row = styled.div`
     padding: 100px 0 0 0;
     flex-direction: column;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    gap: 30px;
+  }
 `
 
 export const Col = styled.div`

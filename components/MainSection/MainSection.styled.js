@@ -46,6 +46,7 @@ export const Hello = styled.p`
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
     font-size: ${props => props.theme.fontSizes.xl};
+    margin-bottom: -5px;
   }
 `
 
@@ -66,10 +67,10 @@ export const Hyeonah = styled.p`
 
 export const Paragraph = styled.p`
   max-width: 550px;
-  margin: 25px 0;
+  margin: 20px 0 30px 0;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
-    margin: 20px 0;
     text-align: center;
+    margin: 10px 0 30px 0;
   }
 `
 

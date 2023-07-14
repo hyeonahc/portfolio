@@ -63,11 +63,11 @@ export const Tag = styled.span`
   font-weight: ${props => props.theme.fontWeight.light};
   color: ${props => props.theme.colors.primary};
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
-    font-size: ${props => props.theme.fontSizes.md};
+    font-size: ${props => props.theme.fontSizes.xmd};
   }
 `
 
 export const Description = styled.p`
   max-width: 550px;
-  margin: 25px 0;
+  margin: 25px 0 30px 0;
 `

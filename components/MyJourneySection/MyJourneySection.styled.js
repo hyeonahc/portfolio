@@ -139,6 +139,9 @@ const fillColorChange = keyframes`
 export const Label = styled.span`
   font-weight: ${props => props.theme.fontWeight.semibold};
   margin-top: 4px;
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.lg};
+  }
 `
 
 export const Tab = styled.li`
