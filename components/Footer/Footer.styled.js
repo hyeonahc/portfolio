@@ -19,4 +19,7 @@ export const Author = styled.p`
 export const Copyright = styled.p`
   margin-bottom: 1em;
   font-size: ${props => props.theme.fontSizes.sm};
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.md};
+  }
 `

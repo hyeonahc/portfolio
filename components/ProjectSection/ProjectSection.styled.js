@@ -11,4 +11,7 @@ export const Title = styled.h2`
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     text-align: center;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.xxxl};
+  }
 `

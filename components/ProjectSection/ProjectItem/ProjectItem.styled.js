@@ -29,6 +29,9 @@ export const Date = styled.p`
   color: ${props => props.theme.colors.primary};
   margin-bottom: 0.5em;
   position: relative;
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    margin-bottom: 0;
+  }
 `
 
 export const Title = styled.h2`
@@ -37,6 +40,10 @@ export const Title = styled.h2`
   color: ${props => props.theme.colors.primary};
   text-transform: capitalize;
   margin-bottom: 0.5em;
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
 `
 
 export const Tags = styled.div`
@@ -56,6 +63,9 @@ export const Tag = styled.span`
   font-size: ${props => props.theme.fontSizes.sm};
   font-weight: ${props => props.theme.fontWeight.light};
   color: ${props => props.theme.colors.primary};
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.md};
+  }
 `
 
 export const Description = styled.p`

@@ -23,4 +23,7 @@ export const StyledButton = styled.button`
     height: 3.1em;
     padding: 1rem 2.25rem;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.lg};
+  }
 `

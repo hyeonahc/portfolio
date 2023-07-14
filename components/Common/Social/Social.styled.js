@@ -9,6 +9,9 @@ export const SocialWrapper = styled.div`
   a {
     font-size: ${props => props.theme.fontSizes.lg};
     padding: 0.25em;
+    @media (max-width: ${props => props.theme.breakpoints.sm}) {
+      font-size: ${props => props.theme.fontSizes.xl};
+    }
   }
 `
 

@@ -15,9 +15,9 @@ const GlobalStyle = createGlobalStyle`
 
 	body {
 		font-family: 'Inter', sans-serif;
-		font-size: 1.6rem;
+		font-size: ${props => props.theme.fontSizes.md};
 		color: ${props => props.theme.colors.black};
-	}
+	}	
 
 	p, ul, li {
 		line-height: 1.4;
@@ -43,6 +43,13 @@ const GlobalStyle = createGlobalStyle`
 	img {
     vertical-align: bottom;
   }
+
+	@media (max-width: ${props => props.theme.breakpoints.sm}) {
+		body {
+			font-size: ${props => props.theme.fontSizes.lg};
+			line-height: 1.5;
+		}
+	}
 `
 
 // Shared Design
@@ -61,6 +68,9 @@ export const BulletPoint = styled.span`
   right: ${props => props.right};
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     right: ${props => props.mdRight};
+  }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    display: none;
   }
 `
 

@@ -12,6 +12,9 @@ export const Row = styled.div`
   left: 0;
   z-index: 1;
   background-color: ${props => props.theme.colors.white};
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  }
 `
 
 export const Col = styled.div``

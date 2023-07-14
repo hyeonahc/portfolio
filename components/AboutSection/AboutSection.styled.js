@@ -70,6 +70,9 @@ export const TagBox = styled.div`
     color: ${props => props.theme.colors.primary};
     vertical-align: baseline;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    flex-basis: 48%;
+  }
 `
 
 export const Tag = styled.span`

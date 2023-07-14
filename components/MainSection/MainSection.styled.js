@@ -10,6 +10,10 @@ export const Row = styled.div`
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     flex-direction: column;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    height: auto;
+    padding: calc(5.5em + 100px) 0 100px 0;
+  }
 `
 
 export const Col = styled.div`
@@ -41,6 +45,9 @@ export const Hello = styled.p`
     font-size: ${props => props.theme.fontSizes.xmd};
     margin-bottom: 0.5em;
   }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.xl};
+  }
 `
 
 export const Hyeonah = styled.p`
@@ -52,6 +59,9 @@ export const Hyeonah = styled.p`
   letter-spacing: 2px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     font-size: ${props => props.theme.fontSizes.xxxl};
+  }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    font-size: ${props => props.theme.fontSizes.xxxxl};
   }
 `
 
@@ -69,6 +79,10 @@ export const ProfilePhoto = styled.div`
   position: relative;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     height: 35vh;
+  }
+  @media (max-width: ${props => props.theme.breakpoints.sm}) {
+    height: auto;
+    width: 70vw;
   }
 `
 
