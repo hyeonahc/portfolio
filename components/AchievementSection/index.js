@@ -11,9 +11,9 @@ const Achievement = () => {
   const achievementData = [
     {
       emoji: '💼',
-      number: '3+ Years',
+      number: '4+ Years',
       description:
-        'With three years of hands-on experience in the field of front-end development, I have honed my skills and expertise in crafting visually stunning and user-friendly websites. ',
+        'With four years of hands-on experience in the field of front-end development, I have honed my skills and expertise in crafting visually stunning and user-friendly websites. ',
     },
     {
       emoji: '👩🏻‍💻',
