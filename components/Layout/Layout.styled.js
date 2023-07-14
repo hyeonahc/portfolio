@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  /* border: 1px solid darkgoldenrod; */
   width: ${props => props.theme.breakpoints.xxl};
   margin: 0 auto;
   position: relative;
@@ -9,17 +8,17 @@ export const Container = styled.div`
   @media (max-width: ${props => props.theme.breakpoints.xxxl}) {
     width: auto;
     margin: 0;
-    padding: 0 5em 0;
+    padding: 0 100px 0;
   }
   @media (max-width: ${props => props.theme.breakpoints.xl}) {
-    padding: 0 2em 0;
+    padding: 0 50px 0;
   }
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     padding: 0;
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
     width: fit-content;
-    padding: 0 1em;
+    padding: 0 30px;
   }
 `
 
@@ -27,13 +26,13 @@ export const ScrollToTop = styled.div`
   display: flex;
   justify-content: flex-end;
   position: fixed;
-  right: 2em;
-  bottom: 1.5em;
+  right: 30px;
+  bottom: 30px;
 `
 
 export const Background = styled.div`
   border-radius: 100%;
-  padding: 0.5em;
+  padding: 10px;
   cursor: pointer;
   background-color: ${props => props.theme.colors.primary};
   opacity: 0.6;
@@ -41,7 +40,7 @@ export const Background = styled.div`
     opacity: 1;
   }
   svg {
-    font-size: 1.5em;
+    font-size: 30px;
     color: ${props => props.theme.colors.white};
   }
 `

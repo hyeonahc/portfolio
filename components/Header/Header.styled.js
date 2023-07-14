@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Row = styled.div`
   width: 100%;
-  height: 5.5em;
-  padding: 0 2em;
+  height: 80px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,11 +29,11 @@ export const HamburgerNavWrapper = styled.div`
 export const Navigation = styled.div`
   background: ${props => props.theme.colors.white};
   display: flex;
-  gap: 1.6em;
+  gap: 30px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     visibility: hidden;
     position: absolute;
-    top: 5.5em;
+    top: 80px;
     right: 0;
     width: 50%;
     height: 100vh;
@@ -51,7 +51,7 @@ export const Menu = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 16px;
   a {
     text-transform: uppercase;
     font-weight: ${props => props.theme.fontWeight.semibold};
@@ -59,12 +59,12 @@ export const Menu = styled.div`
   }
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     flex-direction: column;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
     gap: 0;
     a {
       border-bottom: 1px solid ${props => props.theme.colors.grey};
       width: 100%;
-      padding: 1.6em 0;
+      padding: 20px 0;
       text-align: center;
     }
   }

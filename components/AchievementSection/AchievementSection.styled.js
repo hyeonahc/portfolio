@@ -7,7 +7,7 @@ export const Row = styled.div`
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     padding: 100px 0;
     flex-direction: column;
-    gap: 3em;
+    gap: 30px;
   }
 `
 
@@ -16,16 +16,16 @@ export const Col = styled.div`
 `
 
 export const Wrapper = styled.div`
-  width: 17em;
+  width: 280px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5em;
+  gap: 10px;
 `
 
 export const Emoji = styled.p`
-  font-size: ${props => props.theme.fontSizes.xxl};
+  font-size: ${props => props.theme.fontSizes.xxxl};
 `
 
 export const Number = styled.p`

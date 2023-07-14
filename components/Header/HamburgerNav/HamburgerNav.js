@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Hamburger = styled.div`
-  width: 3rem;
-  height: 3rem;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
@@ -11,8 +11,8 @@ export const Hamburger = styled.div`
 `
 
 export const Burger = styled.div`
-  width: 3rem;
-  height: 0.35rem;
+  width: 30px;
+  height: 3.5px;
   border-radius: 10px;
   background-color: ${props => props.theme.colors.black};
   transform-origin: 1px;

@@ -2,17 +2,17 @@ import styled from 'styled-components'
 
 export const Row = styled.div`
   height: 100vh;
-  padding: 5.5em 0 0 0;
+  padding: 80px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3em;
+  gap: 40px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     flex-direction: column;
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
     height: auto;
-    padding: calc(5.5em + 100px) 0 100px 0;
+    padding: calc(80px + 100px) 0 100px 0;
   }
 `
 
@@ -39,11 +39,10 @@ export const Hello = styled.p`
   text-transform: uppercase;
   line-height: unset;
   letter-spacing: 1px;
-  margin-bottom: 1em;
+  margin-bottom: 10px;
   position: relative;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     font-size: ${props => props.theme.fontSizes.xmd};
-    margin-bottom: 0.5em;
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
     font-size: ${props => props.theme.fontSizes.xl};
@@ -52,24 +51,24 @@ export const Hello = styled.p`
 
 export const Hyeonah = styled.p`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxxxl};
+  font-size: ${props => props.theme.fontSizes.xxxxxl};
   font-weight: ${props => props.theme.fontWeight.black};
   text-transform: uppercase;
   line-height: unset;
   letter-spacing: 2px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
-    font-size: ${props => props.theme.fontSizes.xxxl};
+    font-size: ${props => props.theme.fontSizes.xxxxl};
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
-    font-size: ${props => props.theme.fontSizes.xxxxl};
+    font-size: ${props => props.theme.fontSizes.xxxxxl};
   }
 `
 
 export const Paragraph = styled.p`
   max-width: 550px;
-  margin: 2em 0;
+  margin: 25px 0;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
-    margin: 1.5em 0;
+    margin: 20px 0;
     text-align: center;
   }
 `
@@ -92,26 +91,28 @@ export const Shapes = styled.div`
 
 export const Rectangle = styled.div`
   background-color: ${props => props.theme.colors.primary};
-  width: 0.5em;
-  height: 6em;
+  width: 7px;
+  height: 100px;
   position: absolute;
-  top: 5em;
-  left: -2em;
+  top: 80px;
+  left: -32px;
 `
 
 export const Circle = styled.div`
+  border: 5px solid ${props => props.theme.colors.primary};
   border-radius: 100%;
-  width: 1.25em;
-  height: 1.25em;
+  width: 20px;
+  height: 20px;
   position: absolute;
-  top: -2em;
-  right: -2.5em;
+  top: -32px;
+  right: -40px;
 `
 
 export const Square = styled.div`
-  width: 2.5em;
-  height: 2.5em;
+  border: 7px solid ${props => props.theme.colors.primary};
+  width: 40px;
+  height: 40px;
   position: absolute;
-  bottom: 6em;
-  right: -5em;
+  bottom: 96px;
+  right: -80px;
 `

@@ -5,7 +5,7 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5em;
+  gap: 80px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     padding: 100px 0 0 0;
     flex-direction: column;
@@ -32,23 +32,23 @@ export const Square = styled.div`
   width: 340px;
   height: 315px;
   position: absolute;
-  top: 3em;
-  left: 3em;
+  top: 30px;
+  left: 30px;
   z-index: -1;
 `
 
 export const Title = styled.h2`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxl};
+  font-size: ${props => props.theme.fontSizes.xxxl};
   font-weight: ${props => props.theme.fontWeight.bold};
   text-transform: uppercase;
   line-height: normal;
   position: relative;
-  margin-bottom: 0.3em;
+  margin-bottom: 30px;
 `
 
 export const Paragraph = styled.p`
-  margin-bottom: 2em;
+  margin-bottom: 25px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     text-align: center;
   }
@@ -57,25 +57,22 @@ export const Paragraph = styled.p`
 export const Tags = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 16px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     justify-content: center;
   }
 `
 
 export const TagBox = styled.div`
-  flex-basis: 15em;
+  flex-basis: 48%;
   svg {
     font-size: ${props => props.theme.fontSizes.xs};
     color: ${props => props.theme.colors.primary};
     vertical-align: baseline;
   }
-  @media (max-width: ${props => props.theme.breakpoints.sm}) {
-    flex-basis: 48%;
-  }
 `
 
 export const Tag = styled.span`
   font-weight: ${props => props.theme.fontWeight.light};
-  margin-left: 0.5em;
+  margin-left: 10px;
 `

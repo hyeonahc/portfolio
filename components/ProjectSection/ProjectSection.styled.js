@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Title = styled.h2`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxl};
+  font-size: ${props => props.theme.fontSizes.xxxl};
   font-weight: ${props => props.theme.fontWeight.bold};
   text-transform: uppercase;
   line-height: normal;
@@ -12,6 +12,6 @@ export const Title = styled.h2`
     text-align: center;
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
-    font-size: ${props => props.theme.fontSizes.xxxl};
+    font-size: ${props => props.theme.fontSizes.xxxxl};
   }
 `

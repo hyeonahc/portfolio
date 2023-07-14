@@ -5,7 +5,7 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 3em;
+  gap: 40px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     padding: 0 0 100px 0;
     flex-direction: column;
@@ -27,7 +27,7 @@ export const Col = styled.div`
 export const Date = styled.p`
   font-weight: ${props => props.theme.fontWeight.light};
   color: ${props => props.theme.colors.primary};
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
   position: relative;
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
     margin-bottom: 0;
@@ -39,17 +39,16 @@ export const Title = styled.h2`
   font-weight: ${props => props.theme.fontWeight.bold};
   color: ${props => props.theme.colors.primary};
   text-transform: capitalize;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
-    font-size: 3rem;
+    font-size: ${props => props.theme.fontSizes.xxl};
     margin-bottom: 0;
   }
 `
 
 export const Tags = styled.div`
   display: flex;
-  gap: 0.25em;
-  margin-bottom: 1.5em;
+  gap: 7px;
 `
 
 export const TagBox = styled.div`
@@ -70,5 +69,5 @@ export const Tag = styled.span`
 
 export const Description = styled.p`
   max-width: 550px;
-  margin-bottom: 1.5em;
+  margin: 25px 0;
 `

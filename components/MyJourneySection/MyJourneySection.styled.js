@@ -17,22 +17,22 @@ export const Col = styled.div`
 
 export const Title = styled.h2`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxl};
+  font-size: ${props => props.theme.fontSizes.xxxl};
   font-weight: ${props => props.theme.fontWeight.bold};
   text-align: right;
   text-transform: uppercase;
   line-height: normal;
   position: relative;
+  margin-bottom: 30px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     text-align: center;
-    margin-bottom: 1em;
   }
 `
 
 export const ExperienceWrapper = styled.div`
   display: flex;
-  height: 28em;
-  gap: 2em;
+  height: 560px;
+  gap: 50px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     height: auto;
     flex-direction: column;
@@ -191,7 +191,7 @@ export const Tab = styled.li`
 `
 
 export const Content = styled.div`
-  padding-top: 20px;
+  padding-top: 10px;
   flex-basis: 80%;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     flex-basis: auto;
@@ -201,13 +201,13 @@ export const Content = styled.div`
 export const Position = styled.h3`
   font-size: ${props => props.theme.fontSizes.xl};
   font-weight: ${props => props.theme.fontWeight.semibold};
-  margin-bottom: 0.25em;
+  margin-bottom: 7px;
 `
 
 export const OrganizationDurationWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1em;
+  margin-bottom: 20px;
 `
 
 export const Organization = styled.p`
@@ -223,6 +223,6 @@ export const ExperienceList = styled.li`
     font-size: ${props => props.theme.fontSizes.xs};
     color: ${props => props.theme.colors.primary};
     vertical-align: baseline;
-    margin-right: 1em;
+    margin-right: 10px;
   }
 `

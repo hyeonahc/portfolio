@@ -2,12 +2,11 @@ import styled from 'styled-components'
 
 export const ButtonWrapper = styled.div`
   display: flex;
-  gap: 1em;
+  gap: 20px;
 `
 
 export const StyledButton = styled.button`
-  height: 3.25em;
-  padding: 1rem 2.5rem;
+  padding: 10px 25px;
   text-align: center;
   text-transform: capitalize;
   cursor: pointer;
@@ -19,10 +18,6 @@ export const StyledButton = styled.button`
     props.primary ? 'transparent' : props.theme.colors.primary};
   color: ${props =>
     props.primary ? props.theme.colors.primary : props.theme.colors.white};
-  @media (max-width: ${props => props.theme.breakpoints.md}) {
-    height: 3.1em;
-    padding: 1rem 2.25rem;
-  }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {
     font-size: ${props => props.theme.fontSizes.lg};
   }
