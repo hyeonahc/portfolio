@@ -22,7 +22,7 @@ const btnInfo = [
   },
   {
     name: 'view resume',
-    link: 'https://drive.google.com/file/d/1IQ5n5iHmWKFwKUtM_XPnhPACOYrw16CF/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1lwREIDbxRcqItX8VD1I4JUpvoZpla249/view?usp=sharing',
   },
 ]
 
