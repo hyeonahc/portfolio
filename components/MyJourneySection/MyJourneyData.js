@@ -6,7 +6,9 @@ export const MyJourneyData = [
     position: 'Web Designer',
     duration: 'Sep 2022 - Present',
     experiences: [
-      'Design and develop visually appealing, responsive, and user-friendly websites for clients, ensuring alignment with client brand and/or business objectives and adhering to industry standards',
+      'Successfully conducted comprehensive WordPress training sessions for more than 20 interns, resulting in empowered handling of website projects independently and increased productivity',
+      'Designed and launched client eCommerce websites, tailoring site to meet specific business needs and ensuring a seamless online shopping experience for their customers',
+      'Designed and developed a dynamic restaurant website, incorporating interactive menus and visually appealing elements to attract and engage customers',
     ],
   },
   {
@@ -82,7 +84,7 @@ export const MyJourneyData = [
     position: 'UX/UI Designer',
     duration: 'Feb 2019 - Jan 2021',
     experiences: [
-      'Engaged in cross-functional collaboration, partnering with software developers, marketing teams, and other business units to analyze requirements and develop UI solutions for Merln, a marketing analytics software',
+      'Engaged in Agile environment, partnering with software developers, marketing teams, and other business units to analyze requirements and develop UI solutions for Merln, a marketing analytics software',
       'Played a key role in maintaining design consistency by creating 20 design guidelines for a development team, aligning them with the design direction and implementing UI/UX enhancements for a development team',
       'Created UI design prototypes with Adobe XD, incorporating various components and pages such as messenger, FSA map, chat box, sentiment analysis, and admin page, to drive intuitive and engaging user experiences',
     ],
