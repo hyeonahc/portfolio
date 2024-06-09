@@ -48,8 +48,8 @@ export const MyJourneyData = [
     position: 'Certificate, Front End Developer',
     duration: 'Mar 2022 - Oct 2022',
     experiences: [
-      'Gained proficiency in JavaScript ES6, TypeScript, Vue.js, React.js, SASS/SCSS, Bootstrap, and Python.',
-      'Acquired knowledge in Git, GitHub, SPA, RESTful APIs, ESLint, Webpack, and Responsive Design.',
+      'Gained proficiency in JavaScript ES6, TypeScript, React.js, Vue.js and Python.',
+      'Acquired knowledge in Git, GitHub, SPA, RESTful APIs, ESLint and Webpack.',
       'Completed two personal projects and contributed to three team projects.',
     ],
   },
