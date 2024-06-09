@@ -31,7 +31,7 @@ export const Title = styled.h2`
 
 export const ExperienceWrapper = styled.div`
   display: flex;
-  height: 560px;
+  height: 300px;
   gap: 50px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
     height: auto;

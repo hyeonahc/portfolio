@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const Row = styled.div`
-  padding: 150px 0 50px 0;
+  padding: 150px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
   @media (max-width: ${props => props.theme.breakpoints.md}) {
-    padding: 100px 0 0 0;
+    padding: 100px 0;
     flex-direction: column;
   }
   @media (max-width: ${props => props.theme.breakpoints.sm}) {

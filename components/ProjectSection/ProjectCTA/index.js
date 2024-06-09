@@ -1,5 +1,5 @@
 import Button from '@components/Common/Button'
-import { Row, Title } from './ProjectCTA.styled'
+import { Row, Title, Title1, Title2 } from './ProjectCTA.styled'
 
 const btnInfo = [
   // {
@@ -15,11 +15,12 @@ const btnInfo = [
 
 const ProjectCTA = () => {
   return (
-    <Row flexDirection='column' gap='1.5em'>
+    <Row flexDirection='column' gap='3em'>
       <Title>
-        Explore more of my work on GitHub
-        <br />
-        to see additional projects, code samples, and contributions.
+        <Title1>Explore more of my work on GitHub</Title1>
+        <Title2>
+          to see additional projects, code samples, and contributions.
+        </Title2>
       </Title>
       <Button btnInfo={btnInfo} />
     </Row>
