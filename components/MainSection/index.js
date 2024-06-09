@@ -39,11 +39,12 @@ const MainSection = () => {
             I am <Highlight>Hyeonah</Highlight>
           </Hyeonah>
           <Paragraph>
-            I'm a Hardware Integration Engineer, ensuring EV chargers integrate
-            seamlessly with ChargeLab's software. Now, I'm excited to transition
-            into full-stack development. This portfolio showcases my journey
-            through various personal and team projects. Join me as I learn,
-            evolve, and create in the world of software development!
+            I&apos;m a Hardware Integration Engineer, ensuring EV chargers
+            integrate seamlessly with ChargeLab&apos;s software. Now, I&apos;m
+            excited to transition into full-stack development. This portfolio
+            showcases my journey through various personal and team projects.
+            Join me as I learn, evolve, and create in the world of software
+            development!
           </Paragraph>
           <Button btnInfo={btnInfo} />
         </ProfileCopy>

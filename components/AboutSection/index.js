@@ -50,7 +50,7 @@ const AboutSection = () => {
           <Paragraph>
             My career journey has taken me from building websites at a marketing
             agency to QA testing electric vehicle chargers at a SaaS company.
-            Now, I'm excited to transition that experience into creating
+            Now, I&apos;m excited to transition that experience into creating
             innovative and functional web applications.
             <br />
             <br />I love turning real-world needs into impactful code, using my
