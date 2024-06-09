@@ -7,11 +7,10 @@ export const Row = styled.div`
   gap: 30px;
 `
 
-export const Title = styled.h2`
+export const Title = styled.p`
   font-family: ${props => props.theme.fontFamily.poppins};
-  font-size: ${props => props.theme.fontSizes.xxxl};
-  font-weight: ${props => props.theme.fontWeight.bold};
-  text-transform: uppercase;
+  font-size: ${props => props.theme.fontSizes.xxl};
+  font-weight: ${props => props.theme.fontWeight.semibold};
   line-height: normal;
   text-align: center;
   position: relative;

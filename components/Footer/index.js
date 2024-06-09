@@ -7,13 +7,11 @@ const Footer = () => {
     <Row>
       <Author>
         Designed & Built by{' '}
-        <Link
-          href='https://github.com/hyeonahc'
-          target='_blank'>
+        <Link href='https://github.com/hyeonahc' target='_blank'>
           hyeonahc
         </Link>
       </Author>
-      <Copyright>© 2023 All Rights Reserved</Copyright>
+      <Copyright>© 2024 All Rights Reserved</Copyright>
       <Social />
     </Row>
   )

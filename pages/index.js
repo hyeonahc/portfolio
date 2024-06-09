@@ -1,5 +1,5 @@
 import AboutSection from '@components/AboutSection'
-import AchievementSection from '@components/AchievementSection'
+// import AchievementSection from '@components/AchievementSection'
 import ContactSection from '@components/ContactSection'
 import MainSection from '@components/MainSection'
 import MyJourneySection from '@components/MyJourneySection'
@@ -11,7 +11,7 @@ const Home = () => {
       <MainSection />
       <ProjectSection />
       <AboutSection />
-      <AchievementSection />
+      {/* <AchievementSection /> */}
       <MyJourneySection />
       <ContactSection />
     </div>

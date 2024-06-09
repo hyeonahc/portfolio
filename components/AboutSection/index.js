@@ -17,11 +17,13 @@ import {
 
 const tags = [
   'JavaScript, TypeScript',
-  'React.js, Next.js, Vue.js,',
-  'Redux',
-  'WordPress',
+  'React.js, Next.js, Redux',
+  'React Testing (Jest)',
+  'Node.js, Express.js',
   'HTML, CSS, Sass/Scss',
-  'Bootstrap, MUI',
+  'Bootstrap, Material UI, Tailwind CSS',
+  'Git, REST-ful APIs, Postman',
+  'Agile, Confluence/Jira',
 ]
 
 const AboutSection = () => {
@@ -43,21 +45,17 @@ const AboutSection = () => {
         <Col flexBasis='60%'>
           <Title>
             about me
-            <BulletPoint
-              top='1px'
-              left='-15px'
-            />
+            <BulletPoint top='1px' left='-15px' />
           </Title>
           <Paragraph>
-            I firmly believe that a well-designed and interactive website can
-            leave a lasting impression on users. As a front-end developer, I
-            specialize in crafting intuitive user interfaces and seamless
-            interactions that not only captivate visitors but also make their
-            online experiences enjoyable and effortless.
+            My career journey has taken me from building websites at a marketing
+            agency to QA testing electric vehicle chargers at a SaaS company.
+            Now, I'm excited to transition that experience into creating
+            innovative and functional web applications.
             <br />
-            <br />
-            My journey as a front-end developer has allowed me to acquire a
-            diverse skill set that encompasses proficiency in the folloing:
+            <br />I love turning real-world needs into impactful code, using my
+            technical skills and talent for problem-solving. Here are some of
+            the tools and technologies I work with:
           </Paragraph>
           <Tags>
             {tags.map((tag, index) => (

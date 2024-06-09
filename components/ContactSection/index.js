@@ -16,7 +16,7 @@ const ContactSection = () => {
         let&apos;s <Highlight>work together</Highlight>
       </Title>
       <Paragraph>
-        Let&apos;s turn your ideas into reality!
+        Let&apos;s turn ideas into reality!
         <br />
         Reach out and let&apos;s create something amazing together.
       </Paragraph>

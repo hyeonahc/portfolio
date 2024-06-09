@@ -29,26 +29,21 @@ const btnInfo = [
 const MainSection = () => {
   return (
     <Row id='home'>
-      <Col
-        flexBasis='60%'
-        mdOrder='1'>
+      <Col flexBasis='60%' mdOrder='1'>
         <ProfileCopy>
           <Hello>
-            <BulletPoint
-              top='-10px'
-              left='-15px'
-            />
-            hello world!
+            <BulletPoint top='-10px' left='-15px' />
+            Welcome to my portfolio!
           </Hello>
           <Hyeonah>
             I am <Highlight>Hyeonah</Highlight>
           </Hyeonah>
           <Paragraph>
-            Hello, and welcome to my portfolio! I&apos;m a passionate front-end
-            developer dedicated to creating engaging and functional web
-            applications that enhance the user experience. With a strong passion
-            for technology and an eye for design, I strive to deliver visually
-            stunning and seamless solutions to make people&apos;s lives better.
+            I'm a Hardware Integration Engineer, ensuring EV chargers integrate
+            seamlessly with ChargeLab's software. Now, I'm excited to transition
+            into full-stack development. This portfolio showcases my journey
+            through various personal and team projects. Join me as I learn,
+            evolve, and create in the world of software development!
           </Paragraph>
           <Button btnInfo={btnInfo} />
         </ProfileCopy>

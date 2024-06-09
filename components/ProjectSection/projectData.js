@@ -6,11 +6,11 @@ export const projectData = [
   {
     thumbnail: goTogether,
     maxWidth: '250px',
-    date: 'Sep 2022 – Feb 2023 (6 months)',
+    date: 'Sep 2022 - Feb 2023 (6 months)',
     title: 'go together travel agency',
     devs: ['Next.js', 'TypeScript', 'Redux toolkit', 'MUI', 'Java', 'Spring'],
     description:
-      'Go Together is a travel service platform that aims to provide convenient vacation package bookings for seniors and individuals who face challenges in planning their travels. The client, Go Together Travel Agency (operated by The Shiny), required the development of a new website to address their specific requirements. The project team consists of eight members working on website design and development.',
+      'Go Together is a travel booking platform designed for seniors, making vacation planning easy and fun. You can take a quick survey to get personalised travel package recommendations, ensuring every trip matches your interests perfectly.',
     links: [
       'https://gotogether-s.vercel.app/en',
       'https://github.com/gotogether-s/gotogether-s',
@@ -23,7 +23,7 @@ export const projectData = [
     title: 'Fresh Tomatoes',
     devs: ['JavaScript ES6', 'Fetch API', 'SCSS'],
     description:
-      'Fresh Tomatoes is an innovative and user-friendly online platform designed to enhance your movie and TV show discovery experience. With its extensive database sourced from the OMDb API, Fresh Tomatoes provides you with a seamless and efficient search process to find your favorite movies, TV shows, and celebrity content.',
+      'Fresh Tomatoes is a fun, easy-to-use Movies & TV search website inspired by Rotten Tomatoes. Powered by the OMDb API, you can quickly find movies, TV shows, and celebrities, with detailed info and infinite scrolling on the results page.',
     links: [
       'https://fresh-tomatoes-movie-search.netlify.app/',
       'https://github.com/hyeonahc/fresh-tomatoes',
@@ -32,11 +32,11 @@ export const projectData = [
   {
     thumbnail: tumblerShop,
     maxWidth: '550px',
-    date: 'June 2022 – July 2022 (1 month)',
+    date: 'June 2022 - July 2022 (1 month)',
     title: 'tumbler shop (Korean)',
     devs: ['Vue.js', 'Vuex', 'SCSS'],
     description:
-      'Tumbler Shop is an online marketplace that offers a wide selection of tumblers from various brands. Users can easily browse, compare, and purchase their desired tumblers, eliminating the hassle of searching through multiple stores. With a user-friendly interface and convenient features like account registration, product management, and purchase history, Tumbler Shop provides a seamless shopping experience for tumbler enthusiasts.',
+      'Tumbler Shop is a fun online marketplace where you can buy tumblers with virtual currency. You can enjoy easy browsing and seamless transactions. Plus, the robust admin tools make managing inventory, tracking sales, and handling transactions a breeze.',
     links: [
       'https://tumbler-shop.netlify.app/',
       'https://github.com/hyeonahc/tumbler-shop',

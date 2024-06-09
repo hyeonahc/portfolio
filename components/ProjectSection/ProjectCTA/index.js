@@ -1,5 +1,4 @@
 import Button from '@components/Common/Button'
-import { BulletPoint } from '@styles/globals'
 import { Row, Title } from './ProjectCTA.styled'
 
 const btnInfo = [
@@ -9,24 +8,18 @@ const btnInfo = [
   //   newTab: false,
   // },
   {
-    name: 'load more projects',
+    name: 'View More Projects on GitHub',
     link: 'https://github.com/hyeonahc',
   },
 ]
 
 const ProjectCTA = () => {
   return (
-    <Row
-      flexDirection='column'
-      gap='1.5em'>
+    <Row flexDirection='column' gap='1.5em'>
       <Title>
-        <BulletPoint
-          top='1px'
-          left='-15px'
-        />
-        take a look at
+        Explore more of my work on GitHub
         <br />
-        my best work
+        to see additional projects, code samples, and contributions.
       </Title>
       <Button btnInfo={btnInfo} />
     </Row>
