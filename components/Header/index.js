@@ -16,22 +16,27 @@ import {
 const menuLists = [
   {
     name: 'home',
+    displayName: 'home',
     value: '-15px',
   },
   {
     name: 'projects',
+    displayName: 'projects',
     value: '55px',
   },
   {
     name: 'about',
+    displayName: 'about',
     value: '160px',
   },
   {
-    name: 'my journey',
+    name: 'myjourney',
+    displayName: 'my journey',
     value: '240px',
   },
   {
     name: 'contact',
+    displayName: 'contact',
     value: '355px',
   },
 ]
@@ -58,9 +63,7 @@ const Header = () => {
   return (
     <Row>
       <Col>
-        <Scroll
-          to='home'
-          smooth={true}>
+        <Scroll to='home' smooth={true}>
           <Image
             src={logo}
             width={60}
@@ -89,8 +92,9 @@ const Header = () => {
                 smooth={true}
                 offset={-100}
                 // onClick={() => clickMenu(menuList.value)}
-                onClick={() => closeHamburger(hamburgerOpen)}>
-                {menuList.name}
+                onClick={() => closeHamburger(hamburgerOpen)}
+              >
+                {menuList.displayName}
               </Scroll>
             ))}
           </Menu>
