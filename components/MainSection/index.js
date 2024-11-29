@@ -20,10 +20,10 @@ const btnInfo = [
     name: 'view projects',
     sectionTo: 'projects',
   },
-  {
-    name: 'view resume',
-    link: 'https://drive.google.com/file/d/1lwREIDbxRcqItX8VD1I4JUpvoZpla249/view?usp=sharing',
-  },
+  // {
+  //   name: 'view resume',
+  //   link: 'https://drive.google.com/file/d/1lwREIDbxRcqItX8VD1I4JUpvoZpla249/view?usp=sharing',
+  // },
 ]
 
 const MainSection = () => {
