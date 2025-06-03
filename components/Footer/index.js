@@ -11,7 +11,7 @@ const Footer = () => {
           hyeonahc
         </Link>
       </Author>
-      <Copyright>© 2024 All Rights Reserved</Copyright>
+      <Copyright>© 2025 All Rights Reserved</Copyright>
       <Social />
     </Row>
   )

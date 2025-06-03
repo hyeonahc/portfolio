@@ -17,7 +17,7 @@ import {
 
 const tags = [
   'JavaScript, TypeScript',
-  'React.js, Next.js, Redux',
+  'React.js, Next.js, Redux, Zustand',
   'React Testing (Jest)',
   'Node.js, Express.js',
   'HTML, CSS, Sass/Scss',

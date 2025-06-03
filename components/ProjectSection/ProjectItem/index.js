@@ -46,7 +46,7 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
 
   return (
     <Row>
-      <Col order={projectNumber === 2 ? 1 : 0}>
+      <Col order={projectNumber % 2 === 0 ? 1 : 0}>
         <Image
           src={thumbnail}
           width='100%'
@@ -57,10 +57,7 @@ const ProjectItem = ({ projectItemData, projectNumber }) => {
       </Col>
       <Col>
         <Date>
-          <BulletPoint
-            top='-10px'
-            left='-15px'
-          />
+          <BulletPoint top='-10px' left='-15px' />
           {date}
         </Date>
         <Title>{title}</Title>

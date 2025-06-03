@@ -1,11 +1,32 @@
+import financeTracker from '@public/project-thumbnail-finance-tracker.png'
 import freshTomatoes from '@public/project-thumbnail-fresh-tomatoes.png'
 import goTogether from '@public/project-thumbnail-go-together.png'
 import tumblerShop from '@public/project-thumbnail-tumbler-shop.png'
 
 export const projectData = [
   {
+    thumbnail: financeTracker,
+    width: '200px',
+    date: 'Jul 2024 - Present',
+    title: 'finance tracker',
+    devs: [
+      'React.ts',
+      'TypeScript',
+      'Zustand',
+      'Node.js',
+      'Express',
+      'MongoDB',
+    ],
+    description:
+      'Finance Tracker helps users track income and expenses. It offers multiple viewing options, filters by date, and provides a clear financial summary. Future updates will include budgeting, goal tracking, and visual insights for better financial management.',
+    links: [
+      'https://hyeonahc-finance-tracker.vercel.app/',
+      'https://github.com/hyeonahc/finance-tracker',
+    ],
+  },
+  {
     thumbnail: goTogether,
-    maxWidth: '250px',
+    width: '250px',
     date: 'Sep 2022 - Feb 2023 (6 months)',
     title: 'go together travel agency',
     devs: ['Next.js', 'TypeScript', 'Redux toolkit', 'MUI', 'Java', 'Spring'],
